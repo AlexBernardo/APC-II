@@ -1,0 +1,4399 @@
+1. Faça um programa que escreva seu nome 
+ 
+
+#include <stdio.h> 
+
+#include <tchar.h> 
+
+ 
+
+int main(int argc, char *argv[]) 
+
+{ 
+
+ printf("\n\t\tMEU NOME: DANILLO REGIS CARVALHO"); 
+
+ printf("\n\t\t"); 
+
+ printf("\n\t\t"); 
+
+ system("PAUSE"); 
+
+} 
+ 
+
+2. Faça um programa que desenhe um coração usando o caractere * para fazer o contorno. 
+ 
+
+#include <stdio.h> 
+
+#include <tchar.h> 
+
+ 
+
+int main(int argc, char *argv[]) 
+
+{ 
+
+ printf("\n_____________*********_________*********\n____________*************_____*****
+********\n___________****************_****************\n__________****************************
+*******\n_________*************************************\n________*****************************
+**********\n_________*************************************\n_________*************************
+************\n__________***********************************\n___________**********************
+***********\n____________*******************************\n_____________***********************
+******\n______________***************************\n________________***********************\n__
+_______________*********************\n___________________*****************\n__________________
+___*************\n_______________________*********\n_________________________*****\n__________
+_________________*\n"); 
+
+ system("PAUSE"); 
+
+ // return EXIT_SUCCESS; 
+
+} 
+
+ 
+
+3. Faça um programa que escreva suas notas em linhas diferentes com exatamente uma casa decimal. 
+Use a formatação %.1f para substituir pelos valores e, a partir disso, explique como esse marcador 
+funciona. 
+
+ 
+
+#include <stdio.h> 
+
+#include <tchar.h> 
+
+ 
+
+int main(int argc, char *argv[]) 
+
+{ 
+
+ double por, mat, geo, his, ing, fis, qui; 
+
+ 
+
+ por = 6.5; 
+
+ mat = 7.0; 
+
+ geo = 9.0; 
+
+ his = 3.9; 
+
+ ing = 10.0; 
+
+ fis = 8.5; 
+
+ qui = 9.4; 
+
+ 
+
+ 
+
+ printf("\n PORTUGUES: %.1f", por); 
+
+ printf("\n MATEMATICA: %.1f", mat); 
+
+ printf("\n GEOGRAFIA: %.1f", geo); 
+
+ printf("\n HISTORIA: %.1f", his); 
+
+ printf("\n INGLES: %.1f", ing); 
+
+ printf("\n FISICA: %.1f", fis); 
+
+ printf("\n QUIMICA: %.1f", qui); 
+
+ 
+
+ printf("\n\t\t"); 
+
+ printf("\n\t\t"); 
+
+ system("PAUSE"); 
+
+} 
+
+ 
+
+
+4. Faça um programa que leia um número nome e escreva a mensagem “O número digitado foi” 
+seguido do número recebido: Ex: entrada: 10; saída: O número digitado foi 10 
+ 
+
+#include <stdio.h> 
+
+#include <tchar.h> 
+
+ 
+
+int main(int argc, char *argv[]) 
+
+{ 
+
+ int x; 
+
+ printf("\n"); 
+
+ printf("\n Didite um numero: "); 
+
+ scanf("%d",&x); 
+
+ printf("\n"); 
+
+ printf("\n"); 
+
+ printf("\t\t O MUMERO DIGITADO FOI: %d ", x ); 
+
+ 
+
+ printf("\n"); 
+
+ printf("\n"); 
+
+ printf("\n"); 
+
+ printf("\n"); 
+
+ 
+
+ system("PAUSE"); 
+
+} 
+
+ 
+
+5. Faça um programa que crie três variáveis para receber as três notas de um aluno e calcule e imprima 
+a média desse aluno. 
+
+
+ 
+
+#include <stdio.h> 
+
+#include <tchar.h> 
+
+ 
+
+int main(int argc, char *argv[]) 
+
+{ 
+
+float x,y,z,m,t; 
+
+ printf("\n"); 
+
+ printf("\n Didite a primeira Nota: "); 
+
+ scanf("%f",&x); 
+
+ printf("\n"); 
+
+ printf("\n Didite a segunda Nota: "); 
+
+ scanf("%f",&y); 
+
+ printf("\n"); 
+
+ printf("\n Didite a primeira Nota: "); 
+
+ scanf("%f",&z); 
+
+ printf("\n"); 
+
+ printf("\n"); 
+
+ 
+
+ t = (x + y + z) / 3; 
+
+ m = t / 3; 
+
+ 
+
+ printf("\t\t A MEDIA DO ALUNO E: %.1f ", t ); 
+
+ 
+
+ printf("\n"); 
+
+ printf("\n"); 
+
+ printf("\n"); 
+
+ printf("\n"); 
+
+ 
+
+ system("PAUSE"); 
+
+} 
+
+ 
+
+ 
+
+ 
+
+6. Faça um programa que receba sua idade e escreva sua idade daqui a 10 anos 
+
+
+ 
+
+#include <stdio.h> 
+
+#include <tchar.h> 
+
+ 
+
+int main(int argc, char *argv[]) 
+
+{ 
+
+float x,t; 
+
+ printf("\n"); 
+
+ printf("\n Didite a sua idade: "); 
+
+ scanf("%f",&x); 
+
+ 
+
+ 
+
+ t = x + 10; 
+
+ 
+
+ 
+
+ printf("\t\t DAQUI A 10 ANOS VOCE TERA: %.0f ", t ); 
+
+
+
+ printf("\n"); 
+
+ printf("\n"); 
+
+ printf("\n"); 
+
+ printf("\n"); 
+
+ 
+
+ system("PAUSE"); 
+
+} 
+
+ 
+
+ 
+
+7. Faça um programa que calcule o resultado da expressão: (537 - 285) * 10 + (3 * (72 - 17)). 
+
+
+ 
+
+#include <stdio.h> 
+
+#include <tchar.h> 
+
+ 
+
+int main(int argc, char *argv[]) 
+
+{ 
+
+float x,t; 
+
+ printf("\n"); 
+
+ printf("\n O RESULTADO DA EXPRESSAO:"); 
+
+ printf("\n (537 - 285) * 10 + (3 * (72 - 17)) "); 
+
+ printf("\n E:"); 
+
+ 
+
+ x = (537 - 285) * 10 + (3 * (72 - 17)); 
+
+ 
+
+ t = x; 
+
+ printf("\n"); 
+
+ printf("\n"); 
+
+ 
+
+ printf("\n \t\t O RESULTADO E: %.2f ", t ); 
+
+ 
+
+ printf("\n"); 
+
+ printf("\n"); 
+
+ printf("\n"); 
+
+ printf("\n"); 
+
+ 
+
+ system("PAUSE"); 
+
+} 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+8. Faça um programa que receba um número inteiro e calcule o resto da divisão por 2. 
+
+
+ 
+
+#include <stdio.h> 
+
+#include <tchar.h> 
+
+ 
+
+int main(int argc, char *argv[]) 
+
+{ 
+
+ int x, y, resto = 0, quociente = 0; 
+
+ printf("\n Digite um valor do primeiro interio: "); 
+
+ scanf ("%d", &x); 
+
+ printf("\n Digite um valor do segundo interio: "); 
+
+ scanf ("%d", &y); 
+
+ if (y == 0) 
+
+ { 
+
+ printf("\n Não há divisão por zero."); 
+
+ } 
+
+ else 
+
+ { 
+
+ quociente = x/y; 
+
+ resto = x%y; 
+
+ printf("\n O quociente = %d", quociente ); 
+
+ printf("\n"); 
+
+ printf("\n e o resto = %d", resto); 
+
+ } 
+
+ 
+
+ printf("\n"); 
+
+ printf("\n"); 
+
+ printf("\n"); 
+
+ printf("\n"); 
+
+ 
+
+ system("PAUSE"); 
+
+} 
+
+ 
+
+
+ 
+
+ 
+
+9. Faça um programa que receba o nome e o sobrenome de uma pessoa e imprima o nome completo 
+em uma linha. 
+
+
+ 
+
+#include <stdio.h> 
+
+#include <stdlib.h> 
+
+#include <string.h> 
+
+ 
+
+int main (){ 
+
+ char nome[10],sobre[10]; 
+
+ printf("Informe o nome: "); 
+
+ scanf("%s",nome); 
+
+ 
+
+ printf("Informe sobre nome:"); 
+
+ scanf("%s",sobre); 
+
+ 
+
+ printf("\n"); 
+
+ printf("\n"); 
+
+ 
+
+ printf("SEU NOME COMPLETO: %s %s",nome,sobre); 
+
+ 
+
+ 
+
+ printf("\n"); 
+
+ printf("\n"); 
+
+ printf("\n"); 
+
+ printf("\n"); 
+
+ 
+
+ system("PAUSE"); 
+
+} 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+10. Faça um programa que receba um número e exiba seu sucessor e antecessor. 
+
+
+ 
+
+#include <stdio.h> 
+
+#include <stdlib.h> 
+
+#include <string.h> 
+
+ 
+
+int main (){ 
+
+ int x; 
+
+ printf("\n"); 
+
+ printf("\n Didite um numero: "); 
+
+ scanf("%d",&x); 
+
+ printf("\n"); 
+
+ printf("\n"); 
+
+ printf("\t\tSEU ANTECESSOR SERA: %d ", x - 1 ); 
+
+ printf("\n"); 
+
+ printf("\t\tSEU SUCESSOR SERA: %d ", x + 1 ); 
+
+ 
+
+ printf("\n"); 
+
+ printf("\n"); 
+
+ printf("\n"); 
+
+ printf("\n"); 
+
+ 
+
+ 
+
+ 
+
+ printf("\n"); 
+
+ printf("\n"); 
+
+ printf("\n"); 
+
+ printf("\n"); 
+
+ 
+
+ system("PAUSE"); 
+
+} 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+11. Faça um programa que calcule a quantidade de dinheiro gasta por um fumante dados: a quantidade 
+de anos que ele fuma, o preço da carteira e o número de cigarros por dia. 
+
+
+ 
+
+#include <stdio.h> 
+
+#include <stdlib.h> 
+
+#include <string.h> 
+
+ 
+
+int main (){ 
+
+int qtd_anos, qt_dia_anos, qt_cig_dia, qtd_dias, qtd_cigarros, qtd_carteira; 
+
+ float vr_cart, vr_total; 
+
+ qt_dia_anos = 365; 
+
+ 
+
+ printf("\n|----------CALCULO DE GASTO DE UM FUMANTE---------------| "); 
+
+ printf("\n"); 
+
+ printf("\n QUANTIDADE DE ANOS DO FUMANTE:"); 
+
+ scanf ("%d", &qtd_anos); 
+
+ printf("\n QUANTIDADE DE CIGARROS POR DIA:"); 
+
+ scanf ("%d", &qt_cig_dia); 
+
+ printf("\n VALOR DA CARTEIRA:"); 
+
+ scanf ("%f", &vr_cart); 
+
+ qtd_dias = qtd_anos * qt_dia_anos; 
+
+ qtd_cigarros = qtd_dias * qt_cig_dia; 
+
+ qtd_carteira = qtd_cigarros / 20; 
+
+ vr_total = qtd_carteira * vr_cart; 
+
+ printf("\n"); 
+
+ printf("\n QUANTIDADE DE DIAS Q ELE FUMOU: %d", qtd_dias); 
+
+ printf("\n QUANTIDADE DE CIGARROS: %d", qtd_cigarros); 
+
+ printf("\n QUANTIDADE DE CARTEIRAS: %d", qtd_carteira); 
+
+ printf("\n"); 
+
+ printf("\n QUANTIDADE DE DINHEIRO GASTOS: %.2f", vr_total); 
+
+ printf("\n"); 
+
+ printf("\n"); 
+
+ printf("\n"); 
+
+ 
+
+ 
+
+ system("PAUSE"); 
+
+} 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+12. Faça um programa que calcule a área e o volume do cilindro. 
+
+
+ 
+
+#include<stdio.h> 
+
+#include<stdlib.h> 
+
+#include<math.h> 
+
+ 
+
+void testa_entrada(float *resposta){ 
+
+ 
+
+do{ 
+
+ while(!scanf ("%f", resposta)){ 
+
+ while(getchar()!='\n'); 
+
+ printf("\a"); 
+
+ } 
+
+ 
+
+ if(*resposta<0) puts("\a"); 
+
+ } 
+
+ while(*resposta<0); 
+
+ 
+
+} 
+
+ 
+
+ 
+
+int main () { 
+
+ 
+
+float R, H, V; 
+
+ 
+
+printf ("Calculo do Volume de um Cilindro\n\n"); 
+
+printf ("Digite o valor do raio da base do cilindro em metros: "); 
+
+testa_entrada(&R); 
+
+printf ("Digite o valor da altura do cilindro em metros: "); 
+
+testa_entrada(&H); 
+
+V = M_PI * pow(R,2) * H; 
+
+printf ("\n\nO Volume do Cilindro ‚ igual a: %f metros cubicos", V); 
+
+system("pause >nul"); 
+
+ 
+
+} 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+13. Faça um programa que resolva uma equação do primeiro grau (ax + b = 0). 
+
+
+ 
+
+#include<stdio.h> 
+
+#include<stdlib.h> 
+
+#include<math.h> 
+
+ 
+
+int main () { 
+
+ 
+
+float a, b,x; 
+
+printf("Entre com os coeficientes da equacao.\n"); 
+
+scanf("%f %f", &a, &b); 
+
+if (a != 0) 
+
+{ 
+
+x = -b/a; 
+
+printf("O valor de x = %f\n",x); 
+
+} 
+
+else 
+
+printf("Não existe zero"); 
+
+ 
+
+system("pause >nul"); 
+
+ 
+
+} 
+
+ 
+
+ 
+
+ 
+
+
+14. Faça um programa que receba uma temperatura em Celcius e imprima a correspondente conversão 
+para Farenheit e Kelvin. 
+
+
+ 
+
+#include<stdio.h> 
+
+#include<stdlib.h> 
+
+#include<math.h> 
+
+ 
+
+int main () { 
+
+ 
+
+ float c,k,f; 
+
+ printf("\n"); 
+
+ printf("\n Didite a temperatura em Celcius: "); 
+
+ scanf("%f",&c); 
+
+ printf("\n"); 
+
+ printf("\n"); 
+
+ 
+
+ k = c + 273; 
+
+ printf("\n A TEMPERATURA EM KELVIN E: %.1f", k ); 
+
+ printf("\n"); 
+
+ printf("\n"); 
+
+ 
+
+ f = 9*(c/5)+32; 
+
+ printf("\n A TEMPERATURA EM FARENHEIT E: %.1f", f ); 
+
+ 
+
+ printf("\n"); 
+
+ printf("\n"); 
+
+ printf("\n"); 
+
+ printf("\n"); 
+
+ 
+
+ system("PAUSE"); 
+
+ 
+
+} 
+
+ 
+
+ 
+
+ 
+
+15. Sabendo que latão é composto por 70% de cobre e 30% de zinco, faça um programa que calcule a 
+quantidade de cobre e zinco para uma determinada quantidade de latão informada pelo usuário. 
+
+
+ 
+
+#include<stdio.h> 
+
+#include<stdlib.h> 
+
+#include<math.h> 
+
+ 
+
+int main () { 
+
+ 
+
+int latao; 
+
+double cobre, zinco,t_cobre,t_zinco; 
+
+ 
+
+cobre = 0.7; 
+
+zinco = 0.3; 
+
+ 
+
+printf("\n Digite a quantidade de latao: "); 
+
+scanf ("%d", &latao); 
+
+t_cobre = latao * cobre; 
+
+
+t_zinco = latao * zinco; 
+
+printf("\n"); 
+
+printf("\n A QUANTIDADE DE COBRE NO LATAO INFORMADO E %.2f", t_cobre); 
+
+printf("\n"); 
+
+printf("\n A QUANTIDADE DE ZINCO NO LATAO INFORMADO E %.2f", t_zinco); 
+
+printf("\n"); 
+
+printf("\n A SOMA DAS QUANTIDADES INFORMADA E IGUAL A QUANTIDADE DE LATAO %.2f", t_zinco + 
+t_cobre); 
+
+ 
+
+ 
+
+printf("\n"); 
+
+printf("\n"); 
+
+printf("\n"); 
+
+printf("\n"); 
+
+ 
+
+system("PAUSE"); 
+
+ 
+
+} 
+
+ 
+
+ 
+
+ 
+
+16. Faça um programa que imprima uma caixa, uma oval, uma seta e um losango usando asteriscos da 
+seguinte forma: 
+
+
+#include<stdio.h> 
+
+#include<stdlib.h> 
+
+#include<math.h> 
+
+ 
+
+int main () { 
+
+ 
+
+printf("\n****************** **** * *\n* * 
+** ** * * * *\n* * * * * * 
+* *\n* * * * * * * *\n* * 
+* * * * * *\n* * ** ** 
+********* * *\n* * * * * * 
+*\n* * * * * * *\n* * 
+* * * * *\n* * * * 
+* * *\n* * * * * * 
+*\n* * * * * * *\n* * 
+* * * * *\n* * ** ** 
+* * *\n* * * * * * *\n* 
+* * * * * *\n* * * * 
+* * *\n* * ** ** * * 
+*\n****************** **** * *"); 
+
+ 
+
+ printf("\n"); 
+
+ printf("\n"); 
+
+ printf("\n"); 
+
+ printf("\n"); 
+
+ 
+
+ system("PAUSE"); 
+
+ 
+
+} 
+
+ 
+
+ 
+
+
+1. Faça um programa que leia um nome e informe se ele é igual ao seu dia de nascimento. Imprimir “NÚMERO CORRETO” se for igual e imprimir “NÚMERO INCORRETO”, caso contrário.
+
+#include <stdio.h>
+#include <tchar.h>
+int main(int argc, char *argv[])
+{
+  int x1;
+  printf("\n Didite o dia do Seu Nascimento: ");
+  scanf("%d",&x1);
+
+  if(x1==10){printf("NUMERO CORRETO");}
+  else {printf("NUMERO INCORRETO");}
+
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+
+2. Faça um programa que receba as 3 notas de um aluno e calcule a média final, mostrando ainda o resultado, seguindo a seguinte regra: se a média for maior ou igual a 7, APROVADO; se a média for maior ou igual a 4 e menor que 7, PROVA FINAL; se a média for menor que 4, REPROVADO.
+#include <stdio.h>
+#include <tchar.h>
+int main(int argc, char *argv[])
+{
+  int m1,m2,m3,xMedia,Soma;
+  printf("\n Didite a 1 Nota: ");
+  scanf("%d",&m1);
+  printf("\n Didite a 2 Nota: ");
+  scanf("%d",&m2);
+  printf("\n Didite a 3 Nota: ");
+  scanf("%d",&m3);
+  Soma = m1+m2+m3;
+  xMedia = Soma / 3;
+
+  printf("\n");
+  printf("A MEDIA DOS VALORES INFORMADO E: %d ", xMedia );
+  printf("\n");
+  if(xMedia<4){printf("REPROVADO");}
+  if(xMedia>=4 && xMedia<7){printf("PROVA FINAL");}
+  if(xMedia>=7){printf("APROVADO");}
+
+  printf("\n");
+  system("PAUSE");
+}
+
+3. Faça um programa que leia a velocidade máxima permitida em uma avenida e a velocidade que um motorista estava dirigindo nela e calcule a multa que ele terá que pagar, sabendo que são pagos: R$50 se o motorista ultrapassar até 10km/h a velocidade permitida (ex: se a velocidade máxima permitida for 50km/h e ele estiver a 53 ou 60km/h); R$100 se o motorista ultrapassar de 11 a 30hm/h a velocidade permitida; e R$ 200 se ele estiver acima de 30km/h da velocidade permitida.
+#include <stdio.h>
+#include <tchar.h>
+int main(int argc, char *argv[])
+{
+  int Vmax,Vmoto;
+  Vmax = 110;
+  printf("\n Digite a velocidade que um motorista estava dirigindo: ");
+  scanf("%d",&Vmoto);
+  printf("\n VELOCIDADE PERMITIDA E 110km/h");
+  if(Vmoto <= 110) {
+	printf("\n VELOCIDADE DO MOTORISTA: %d",Vmoto);
+	printf("\n NAO SERA COBRADO MULTA MOTORISTA NA VELOCIDADE PERMITIDA");
+  }
+  if(Vmoto > 110 && Vmoto <= 120) {
+	printf("\n VELOCIDADE DO MOTORISTA: %d",Vmoto);
+	printf("\n SERA COBRADO UMA MULTA DE R$ 50,00 ");
+  }
+  if(Vmoto > 120 && Vmoto <= 140) {
+	printf("\n VELOCIDADE DO MOTORISTA: %d",Vmoto);
+	printf("\n SERA COBRADO UMA MULTA DE R$ 100,00 ");
+  }
+  if(Vmoto > 140) {
+	printf("\n VELOCIDADE DO MOTORISTA: %d",Vmoto);
+	printf("\n SERA COBRADO UMA MULTA DE R$ 200,00 ");
+  }
+  printf("\n");
+  system("PAUSE");
+}
+
+
+4. Faça um programa que leia dois valores reais (float) do teclado e calcule a divisão entre eles. Se o segundo for zero imprima (DIVISÃO POR ZERO)
+#include <stdio.h>
+#include <tchar.h>
+int main(int argc, char *argv[])
+{
+ float x, y;
+ printf("\n Primeiro Valor: ");
+ scanf ("%d", &x);
+ printf("\n Segundo Valor: ");
+ scanf ("%d", &y);
+ if (y == 0)
+ {
+   printf("\n DIVISAO POR ZERO.");
+ }
+ else
+ {
+  printf("\n DIVISAO ENTRE ELES = %.2f", x/y );
+  printf("\n");
+ }
+ printf("\n");
+ system("PAUSE");
+}
+
+5. Faça um programa que receba 3 números e imprima o menor deles.
+#include <stdio.h>
+#include <tchar.h>
+
+void menornum(int n1, int n2, int n3){
+int menor;
+if (n1 < n2 && n1 < n3) {
+menor = n1;
+}
+if (n2 < n1 && n2 < n3) {
+menor = n2;
+}
+if (n3 < n1 && n3 < n2) {
+menor = n3;
+}
+
+printf("\n O MENOR NUMERO DIGITADO: %d",menor);
+}
+
+int main(int argc, char *argv[])
+{
+ int n1,n2,n3;
+ printf("\n Primeiro valor: ");
+ scanf ("%d", &n1);
+ printf("\n Segundo Valor: ");
+ scanf ("%d", &n2);
+ printf("\n Terceiro Valor: ");
+ scanf ("%d", &n3);
+
+ menornum(n1,n2,n3);
+
+
+ printf("\n");
+ printf("\n");
+ system("PAUSE");
+}
+
+
+6. Faça um programa que receba dois números e os imprima em ordem crescente.
+#include <stdio.h>
+#include <tchar.h>
+
+void ORDEM(int n1, int n2){
+
+if (n1 < n2) {
+printf("\n ORDEM CRESCENTE: %d,%d ",n1,n2);
+}else {
+printf("\n ORDEM CRESCENTE: %d,%d ",n2,n1);
+}
+
+}
+
+int main(int argc, char *argv[])
+{
+ int n1,n2,n3;
+ printf("\n Primeiro valor: ");
+ scanf ("%d", &n1);
+ printf("\n Segundo Valor: ");
+ scanf ("%d", &n2);
+
+ ORDEM(n1,n2);
+
+
+ printf("\n");
+ printf("\n");
+ system("PAUSE");
+}
+
+7. Faça um programa que leia um número e verifique se ele é par ou ímpar.
+#include <stdio.h>
+#include <tchar.h>
+
+int main(int argc, char *argv[])
+{
+ int n1;
+ printf("\n Digite um valor: ");
+ scanf ("%d", &n1);
+ if(n1%2==0){ printf("\n NUMERO PAR"); }else{ printf("\n NUMERO IMPAR"); }
+ printf("\n");
+ printf("\n");
+ system("PAUSE");
+}
+
+
+8. Faça um programa que leia 4 números e imprima a soma dos que forem par.
+#include <stdio.h>
+#include <tchar.h>
+int main(int argc, char *argv[])
+{
+  int x1,x2,x3,x4;
+  int xSoma;
+  xSoma = 0;
+  printf("\n Didite um numero: ");
+  scanf("%d",&x1);
+  if(x1%2==0){	xSoma = xSoma + x1; }
+
+  printf("\n Didite Outro: ");
+  scanf("%d",&x2);
+  if(x2%2==0){	xSoma = xSoma + x2; }
+
+  printf("\n Didite Outro: ");
+  scanf("%d",&x3);
+  if(x3%2==0){	xSoma = xSoma + x3; }
+
+  printf("\n Didite Outro: ");
+  scanf("%d",&x4);
+  if(x4%2==0){	xSoma = xSoma + x4; }
+
+  printf("\n");
+  printf("A SOMA DOS VALORES INFORMADO E: %d ", xSoma );
+  printf("\n");
+  system("PAUSE");
+}
+
+
+9. Faça um programa que receba um ano e verifique se ele é bissexto. Um ano é bissexto se for divisível por 400 ou se ele for divisível por 4 mas não por 100.
+#include <stdio.h>
+#include <tchar.h>
+int main(int argc, char *argv[])
+{
+  int ano,rest;
+
+  printf("\n Didite um Ano: ");
+  scanf("%d",&ano);
+  if(ano%400==0 || (ano%4==0 && ano%100!=0)){
+   printf("ANO BISSEXTO");
+  }else{
+   printf("NAO E ANO BISSEXTO");
+  }
+
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+
+
+
+COMANDO DE SELEÇÃO DUPLA IF-ELSE
+10. Faça um programa que leia os três coeficientes de uma equação e imprima as soluções, quando existirem. Lembrando que a existência das soluções depende de delta: 
+a) Se delta for menos que zero não há soluções reais (imprima a mensagem “NÃO HÁ SOLUÇÕES REAIS”). 
+b) Se delta for igual a zero existe apenas uma solução real (imprima a mensagem “EXISTE UMA SOLUÇÃO REAL, x = valor). 
+c) Se delta for maior do que zero, temos duas soluções reais (imprima a mensagem “EXISTEM DUAS SOLUÇÕES REAIS, x1 = valor_1 e x2 = valor_2”).
+#include <stdio.h>
+#include <tchar.h>
+int main(int argc, char *argv[])
+{
+  float x1,x2,delta;
+  x1=0;x2=0;delta=0;
+  printf("\n Entre com os coeficientes da equacao: ");
+  scanf("%f %f", &x1, &x2);
+	delta = x1/x2;
+	if(delta < 0){printf("\n NAO HA SOLUCOES REAIS");}
+	else{
+	   if(delta == 0){printf("\n EXISTE UMA SOLUCAO REAL, x = %f",x1);}
+	   else{
+		  if(delta > 0){printf("\n EXISTE DUAS SOLUCOES REAIS, x1 = %f e x2 = %f",x1,x2);}
+	   }
+	}
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+11. Faça um programa que receba um mês do ano (em formato numérico) e imprima a quantidade de dias que ele possui (considere fevereiro contendo 28 dias).
+#include <stdio.h>
+#include <tchar.h>
+int main(int argc, char *argv[])
+{
+  int x[12] = {31,28,31,30,31,30,31,31,30,31,30,31};
+  int y;
+  printf("\n Entre com um mes: ");
+  scanf("%d",&y);
+  printf("\n ESSE MES POSSUI: %d",x[y-1]);
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+
+
+12. Faça um programa que leia o número de lados de um polígono regular, e a medida do lado. Calcular e imprimir o seguinte:
+a. Se o número de lados for igual a 3 escrever TRIÂGULO e o valor do seu perímetro.
+b. Se o número de lados for igual a 4 escrever QUADRADO e o valor da sua área.
+c. Se o número de lados for igual a 5 escrever PENTÁGONO.
+#include <stdio.h>
+#include <tchar.h>
+int main(int argc, char *argv[])
+{
+  int qtdlados, lado,peri,area;
+
+  printf("\n Lados do Poligonos: ");
+  scanf("%d",&qtdlados);
+  printf("\n Medida do lado: ");
+  scanf("%d",&lado);
+
+  peri = 3 * lado;
+  area = lado * lado;
+
+  switch (qtdlados) {
+	case 1,2: printf("\n NAO E UM POLIGONO");
+	break;
+	case 3: printf("\n TRIAGULO - PERIMETRO: %d",peri);
+	break;
+	case 4: printf("\n QUADRADO - AREA: %d",area);
+	break;
+	case 5: printf("\n PENTAGANO");
+	break;
+ }
+ if(qtdlados > 5)printf("\n PENTAGANO NAO IDENTIFICADO");
+
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+
+13. Em qualquer outra situação escrever Polígono não identificado.
+#include <stdio.h>
+#include <tchar.h>
+int main(int argc, char *argv[])
+{
+  int qtdlados, lado,peri,area;
+
+  printf("\n Lados do Poligonos: ");
+  scanf("%d",&qtdlados);
+  printf("\n Medida do lado: ");
+  scanf("%d",&lado);
+
+  peri = 3 * lado;
+  area = lado * lado;
+
+  switch (qtdlados) {
+	case 1,2: printf("\n NAO E UM POLIGONO");
+	break;
+	case 3: printf("\n TRIAGULO - PERIMETRO: %d",peri);
+	break;
+	case 4: printf("\n QUADRADO - AREA: %d",area);
+	break;
+	case 5: printf("\n PENTAGANO");
+	break;
+ }
+ if(qtdlados > 5)printf("\n PENTAGANO NAO IDENTIFICADO");
+
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+
+14. Faça um programa que leia 3 valores e verifique se formam um triângulo (O valor de cada lado tem que ser m soa dos outros dois). Caso positivo, classifique esse triângulo em Triângulo equilátero (Possui os 3 lados iguais), Triângulo isósceles (Possui 2 lados iguais) e Triângulo escaleno (Possui 3 lados diferentes).
+#include <stdio.h>
+#include <tchar.h>
+int main(int argc, char *argv[])
+{
+  int l1,l2,l3;
+  printf("\n 1 Lado do triangulo: ");
+  scanf("%d",&l1);
+  printf("\n 2 Lado do triangulo: ");
+  scanf("%d",&l2);
+  printf("\n 3 Lado do triangulo: ");
+  scanf("%d",&l3);
+
+  if(l1==l2 && l1==l3){  printf("\n TRIAGULO EQUILATERO"); }
+  else {
+		if(l1==l2 || l1==l3 || l2==l3){  printf("\n TRIAGULO ISOSCELES"); }
+		else{
+			   printf("\n TRIAGULO SCALENO");
+			}
+	   }
+
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+
+15. Faça um programa que leia o valor de 3 ângulos de um triângulo e escreva se o triângulo é acutângulo (Possui 3 ângulos agudos – menores que 90 graus), retângulo (Possui um ângulo reto – 90 graus), obtusângulo (possui um ângulo obtuso – maior que 90 graus) 
+#include <stdio.h>
+#include <tchar.h>
+int main(int argc, char *argv[])
+{
+  int a1,a2,a3;
+  printf("\n 1 Angulo de um triangulo: ");
+  scanf("%d",&a1);
+  printf("\n 2 Angulo de um triangulo: ");
+  scanf("%d",&a2);
+  printf("\n 3 Angulo de um triangulo: ");
+  scanf("%d",&a3);
+
+  if(a1<90 && a2<90 && a3<90){ printf("\n TRIAGULO ACUTAGULO"); }
+  else {
+		if(a1>90 || a2>90 || a3>90){  printf("\n TRIAGULO OBTUSANGULO"); }
+		else{
+			   if(a1==90 || a2==90 || a3==90){  printf("\n TRIAGULO RETANGULO"); }
+			}
+	   }
+
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+
+
+16. Faça um programa que leia um número e imprima se ele é par ou ímpar.
+#include <stdio.h>
+#include <tchar.h>
+
+int main(int argc, char *argv[])
+{
+   int n1;
+   printf("\n Digite um valor: ");
+   scanf ("%d", &n1);
+   if(n1%2==0){ printf("\n NUMERO PAR"); }else{ printf("\n NUMERO IMPAR"); }
+   printf("\n");
+   printf("\n");
+   system("PAUSE");
+}
+
+
+
+
+17. Utilize a estrutura “if” para fazer um programa que retorne o nome de um produto a partir do código do mesmo. Considere os seguintes códigos: 
+a. 001: Parafuso; 
+b. 002: Porca; 
+c. 003: Prego; 
+d. Para qualquer outro código indicar: Diversos!
+#include <stdio.h>
+#include <tchar.h>
+
+int main(int argc, char *argv[])
+{
+int x = 0;
+do{
+	  printf("\n|--------------------------------------------------------------|");
+	  printf("\n| CADASTRO DE PRODUTO                                          |");
+	  printf("\n|--------------------------------------------------------------|");
+	  printf("\n| 001: Parafuso                                                |");
+	  printf("\n| 002: Porca                                                   |");
+	  printf("\n| 003: Prego                                                   |");
+	  printf("\n| Qualquer outro codigo: Diversos                              |");
+	  printf("\n| 000: Sair                                                    |");
+	  printf("\n|--------------------------------------------------------------|");
+	  printf("\n");
+	  if(x==1){printf("\n PRODUTO SELECIONADO: Parafuso");}
+	  if(x==2){printf("\n PRODUTO SELECIONADO: Porca");}
+	  if(x==3){printf("\n PRODUTO SELECIONADO: Prego");}
+	  if(x>3){printf("\n PRODUTO SELECIONADO: Diversos");}
+	  printf("\n");
+	  printf("\n Digite a Opcao ");
+	  scanf("%d",&x);
+	  system("cls");
+
+
+}while(x>0);
+  printf("\n");
+  printf("\n");
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+
+18. Escreva um algoritmo que solicita ao usuário para digitar um número inteiro positivo, e mostre-o por extenso. Este número deverá variar entre 1 e 10. Se o usuário introduzir um número que não pertença a este intervalo, mostre a frase “número inválido”.
+#include <stdio.h>
+#include <tchar.h>
+
+int main(int argc, char *argv[])
+{
+  int x[10] = {"UM","DOIS","TRES","QUATRO","CINCO","SEIS","SETE","OITO","NOVE","DEZ"};
+  int y;
+  printf("\n Entre com um numero: ");
+  scanf("%d",&y);
+  printf("\n ESTE NUMERO E: %s",x[y-1]);
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+
+19. Faça um programa que leia dois números (x e y) e verifique se o primeiro é divisível pelo segundo. Se o primeiro for divisível pelo segundo, imprima: “’x’ é divisível por ‘y’”. Se o primeiro não for divisível pelo segundo, imprima: “’x’ não é divisível por ‘y’”.
+#include <stdio.h>
+#include <tchar.h>
+
+int main(int argc, char *argv[])
+{
+ float x=0,y=0;
+ float r1=0;
+ printf("\n Digite o valor de X: ");
+ scanf ("%f", &x);
+ printf("\n Digite o valor de Y: ");
+ scanf ("%f", &y);
+ r1 = (x/y);
+ if(r1 >= 1 ){printf("\n X E DIVISIVEL POR Y");}
+ if(r1 < 1){printf("\n X NAO E DIVISIVEL POR Y");}
+ printf("\n");
+ printf("\n");
+ system("PAUSE");
+}
+
+
+COMANDO  SWITCH
+
+20. Faça um programa que exiba um menu ao usuário com as seguintes opções: 1-Inclusão, 2-Exclusão, 3-Sair. Ao usuário selecionar uma opção o programa deverá mostrar um texto correspondendo à opção selecionada. Mostre “opção inválida” caso seja diferente de 1, 2 ou 3.
+#include <stdio.h>
+#include <tchar.h>
+
+int main(int argc, char *argv[])
+{
+int x = 0;
+do{
+	  printf("\n|--------------------------------------------------------------|");
+	  printf("\n| MENU                                                         |");
+	  printf("\n|--------------------------------------------------------------|");
+	  printf("\n| 1: INCLUSAO                                                  |");
+	  printf("\n| 2: EXCLUSAO                                                  |");
+	  printf("\n| 3: SAIR                                                      |");
+	  printf("\n|--------------------------------------------------------------|");
+	  printf("\n");
+
+	  switch(x) {
+		  case 1: {printf("\n OPCAO SELECIONADA: INCLUSAO");}
+		  break;
+		  case 2: {printf("\n OPCAO SELECIONADO: EXCLUSAO");}
+		  break;
+		  case 3: {printf("\n OPCAO SELECIONADO: SAIR");}
+		  break;
+		  default: {printf("\n OPCAO INVALIDA");}
+		  break;
+	  }
+
+	  printf("\n");
+	  printf("\n Digite a Opcao ");
+	  scanf("%d",&x);
+	  system("cls");
+
+}while(x>0);
+  printf("\n");
+  printf("\n");
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+
+21. Faça um programa que receba dois valores e exiba um menu para o usuário escolher uma das quatro operações aritméticas. Baseado nessa escolha o programa deverá calcular e imprimir o resultado.
+#include <stdio.h>
+#include <tchar.h>
+
+int main(int argc, char *argv[])
+{
+ float x=0,y=0;
+ float r1=0;
+ int z = 0;
+ printf("\n Digite o valor de X: ");
+ scanf ("%f", &x);
+ printf("\n Digite o valor de Y: ");
+ scanf ("%f", &y);
+
+
+do{
+	  printf("\n 1: SOMAR");
+	  printf("\n 2: SUBTRAIR");
+	  printf("\n 3: MULTIPLICAR");
+	  printf("\n 4: DIVIDIR");
+	  printf("\n");
+
+	  switch(z) {
+		  case 1: {r1 = x+y; printf("\n A SOMA DE %.2f + %.2f = %.2f",x,y,r1 ); }
+		  break;
+		  case 2: {r1 = x-y; printf("\n A SUBTRACAO DE %.2f - %.2f = %.2f",x,y,r1 );}
+		  break;
+		  case 3: {r1 = x*y; printf("\n A MULTIPLICACAO DE %.2f * %.2f = %.2f",x,y,r1 );}
+		  break;
+		  case 4: {r1 = x/y; printf("\n A DIVISAO DE %.2f / %.2f = %.2f",x,y,r1 );}
+		  break;
+		  default: {printf("\n OPCAO INVALIDA");}
+		  break;
+	  }
+
+	  printf("\n");
+	  printf("\n Digite a Opcao ");
+	  scanf("%d",&z);
+	  system("cls");
+
+}while(z>0);
+
+
+ printf("\n");
+ printf("\n");
+ system("PAUSE");
+}
+
+22. Faça um programa que leia um número e o escreva por extenso se estiver no intervalo de 0 a 20. Caso contrário escreva “número inválido”.
+#include <stdio.h>
+#include <tchar.h>
+
+void extenso(){
+  int x[21] = {"ZERO","UM","DOIS","TRES","QUATRO","CINCO","SEIS","SETE","OITO","NOVE","DEZ","ONZE","DOZE","TREZE","QUATORZE","QUINZE","DEZESSEIS","DEZESSETE","DEZOITO","DEZENOVE","VINTE"};
+  int y;
+  printf("\n Entre com um numero: ");
+  scanf("%d",&y);
+  printf("\n ESTE NUMERO E: %s",x[y]);
+}
+
+int main(int argc, char *argv[])
+{
+int z;
+do{extenso();}while(z>0);
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+
+}
+23. Faça um programa que receba a letra inicial do estado civil de uma pessoa e imprima a descrição: Casado(a), Solteiro(a), Viúvo(a), desQuitado(a), Divorciado(a), Inválido.
+#include <stdio.h>
+#include <tchar.h>
+
+int main(int argc, char *argv[])
+{
+  unsigned char *a;
+
+int  x;
+do{
+	  printf("\n|--------------------------------------------------------------|");
+	  printf("\n| MENU                                                         |");
+	  printf("\n|--------------------------------------------------------------|");
+	  printf("\n| C: CASADO(A)                                                 |");
+	  printf("\n| S: SOLTEIRO(A)                                               |");
+	  printf("\n| V: VIUVO(A)                                                  |");
+	  printf("\n| Q: DESQUITADO(A)                                             |");
+	  printf("\n| D: DIVORCIADO(A)                                             |");
+	  printf("\n| I: INVALIDO(A)                                               |");
+	  printf("\n|--------------------------------------------------------------|");
+	  if(a=='C') {x = 1;}
+	  if(a=='S') {x = 2;}
+	  if(a=='V') {x = 3;}
+	  if(a=='Q') {x = 4;}
+	  if(a=='D') {x = 5;}
+	  if(a=='I') {x = 6;}
+	  switch(x) {
+		  case 1: {printf("\n OPCAO SELECIONADA: CASADO(A)");}
+		  break;
+		  case 2: {printf("\n OPCAO SELECIONADA: SOLTEIRO(A)");}
+		  break;
+		  case 3: {printf("\n OPCAO SELECIONADA: VIUVO(A)");}
+		  break;
+		  case 4: {printf("\n OPCAO SELECIONADA: DESQUITADO(A)");}
+		  break;
+		  case 5: {printf("\n OPCAO SELECIONADA: DIVORCIADO(A)");}
+		  break;
+		  case 6: {printf("\n OPCAO SELECIONADA: INVALIDO(A)");}
+		  break;
+		  default: {printf("\n OPCAO INVALIDA");}
+		  break;
+	  }
+	  printf("\n Digite a Opcao: ");
+	  scanf("%s",&a);
+	  system("cls");
+
+}while(x>0);
+  printf("\n");
+  printf("\n");
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+24. Faça um programa que leia o preço e a categoria de um produto. O programa deve calcular e mostrar o reajuste de acordo com a categoria: A = 50%, B = 25%, C = 15% e outros = 5%.
+#include <stdio.h>
+#include <tchar.h>
+int main(int argc, char *argv[])
+{
+unsigned char *s;
+float x = 0;
+	  printf("\n Entre com a Categoria do Produto: ");
+	  scanf("%s",&s);
+	  printf("\n Entre com o Preco do Produto: ");
+	  scanf("%f",&x);
+
+	  if(s=='A' || s=='a'){
+		printf("\n Reajuste do Preco do Produto sera: %.2f ", x + (x * 50/100) );
+	  }else{
+			if(s=='B' || s=='b'){
+			printf("\n Reajuste do Preco do Produto sera: %.2f ", x + (x * 25/100) );
+			}else{
+				 if(s=='C' || s=='c'){
+				 printf("\n Reajuste do Preco do Produto sera: %.2f ", x + (x * 15/100) );
+				 }else{
+					   printf("\n Reajuste do Preco do Produto sera: %.2f ", x + (x * 5/100) );
+				 }
+			}
+
+	  }
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+
+25. Faça um programa que leia uma letra do alfabeto e imprima das mensagens a seguir a correspondente para cada caso: “Vogal maiúscula”, “Vogal minúscula”, “Consoante”.
+#include <stdio.h>
+#include <tchar.h>
+
+void letras(){
+  char vogaisMin[6] = {' ','a','e','i','o','u'};
+  char vogaisMai[6] = {' ','A','E','I','O','U'};
+  char consoMin[23] = {' ','b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','y','z','ç'};
+  char consoMai[23] = {' ','B','C','D','F','G','H','J','K','L','M','N','P','Q','R','S','T','V','W','X','Y','Z','Ç'};
+  unsigned char y;
+  int i;
+  printf("\n Entre com uma letra do alfabeto: ");
+  scanf("%s",&y);
+  i = 0;
+  for (i = 0; i <= 6;) {
+	if(y == vogaisMin[i]){printf("\n A LETRA %c E UMA VOGAL MINUSCULA",y);}
+	i++;
+  }
+  i = 0;
+  for (i = 0; i <= 23;) {
+	if(y == consoMin[i]){printf("\n A LETRA %c E UMA CONSOANTE MINUSCULA",y);}
+	i++;
+  }
+  i = 0;
+  for (i = 0; i <= 6;) {
+	if(y == vogaisMai[i]){printf("\n A LETRA %c E UMA VOGAL MAIUSCULA",y);}
+	i++;
+  }
+  i = 0;
+  for (i = 0; i <= 23;) {
+	if(y == consoMai[i]){printf("\n A LETRA %c E UMA CONSOANTE MAIUSCULA",y);}
+	i++;
+  }
+  printf("\n");
+  printf("\n");
+}
+
+int main(int argc, char *argv[])
+{
+int z;
+do{letras();}while(z>0);
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+
+
+26. Faça um programa que leia a categoria da carteira de motorista do usuário e imprima os tipos de veículos que ele pode dirigir.
+int main(int argc, char *argv[])
+{
+  unsigned char y;
+  int i;
+  printf("\n Entre com a categoria da carteira de Habilitacao: ");
+  scanf("%s",&y);
+  if(y=='A')printf("\n CATEGORIA DO TIPO: ''%c'' PODE GIRIGIR VEICULOS DE 2 OU 3 RODAS(OTOCICLETAS, TRICILULOS) ",y);
+  if(y=='B')printf("\n CATEGORIA DO TIPO: ''%c'' PODE GIRIGIR VEICULOS COM OU SEM REBOQUE, COM PESO BRUTO TOTAL DE 3.500kg E LOTAÇÃO COM NO MAXIMO 8 PESSOAS",y);
+  if(y=='C')printf("\n CATEGORIA DO TIPO: ''%c'' PODE GIRIGIR TODAS AS CATEGORIAS B COM LIMITE DE ATE 6.000kg",y);
+  if(y=='D')printf("\n CATEGORIA DO TIPO: ''%c'' PODE GIRIGIR TODAS AS CATEGORIAS B E C COM LOTAÇÃO MAIOR QUE 8 PESSOAS COM LIMITE DE MAIS 6.000kg",y);
+  if(y=='E')printf("\n CATEGORIA DO TIPO: ''%c'' PODE GIRIGIR TODAS AS CATEGORIAS B E C e D COM LOTAÇÃO E UNICA CATEGORIA QUE PERMITE DIRIGIR COM MAIS DE UM REBOQUE",y);
+  printf("\n");
+  printf("\n");
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+
+27. Utilize a estrutura “switch” para fazer um programa que retorne o nome de um produto a partir do código do mesmo. Considere os seguintes códigos: 
+a. 001: Parafuso; 
+b. 002: Porca; 
+c. 003: Prego; 
+d. Para qualquer outro código indicar: Diversos!
+#include <stdio.h>
+#include <tchar.h>
+
+int main(int argc, char *argv[])
+{
+int x = 0;
+do{
+	  printf("\n|--------------------------------------------------------------|");
+	  printf("\n| CADASTRO DE PRODUTO                                          |");
+	  printf("\n|--------------------------------------------------------------|");
+	  printf("\n| 001: Parafuso                                                |");
+	  printf("\n| 002: Porca                                                   |");
+	  printf("\n| 003: Prego                                                   |");
+	  printf("\n| Qualquer outro codigo: Diversos                              |");
+	  printf("\n| 000: Sair                                                    |");
+	  printf("\n|--------------------------------------------------------------|");
+	  printf("\n");
+		switch(x) {
+		  case 1: {printf("\n PRODUTO SELECIONADO: Parafuso");}
+		  break;
+		  case 2: {printf("\n PRODUTO SELECIONADO: Porca");}
+		  break;
+		  case 3: {printf("\n PRODUTO SELECIONADO: Prego");}
+		  break;
+		  default: {printf("\n PRODUTO SELECIONADO: Diversos");}
+		  break;
+	  }
+	  printf("\n");
+	  printf("\n Digite a Opcao ");
+	  scanf("%d",&x);
+	  system("cls");
+
+
+}while(x>0);
+  printf("\n");
+  printf("\n");
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+
+28. Faça um programa que receba um código equivalente às 27 unidades federativas brasileiras e imprima o nome e a capital correspondente. Receba números de 1 a 27 considerando os estados organizados em ordem alfabética.
+#include <stdio.h>
+#include <tchar.h>
+int y=0;
+void letras(){
+  int estados[28] = {" ", "Acre","Alagoas","Amapa","Amazonas","Bahia","Ceara","Distrito Federal","Espirito Santo","Goias","Maranhao","Mato Grosso","Mato Grosso do Sul","Minas Gerais","Para","Paraiba","Parana","Pernambuco","Piaui","Rio de Janeiro","Rio Grande do Norte","Rio Grande do Sul","Rondonia","Roraima","Santa Catarina","Sao Paulo","Sergipe","Tocantins"};
+  int capitais[28] = {" ","Rio Branco","Maceio","Macapa","Manaus","Salvador","Fortaleza","Brasilia","Vitoria","Goiania","Sao Luis","Cuiaba","Campo Grande","Belo Horizonte","Belem","Joao Pessoa","Curitiba","Recife","Teresina","Rio de Janeiro","Natal","Porto Alegre","Porto Velho","Boa Vista","Florianopolis","Sao Paulo","Aracaju","Palmas"};
+  int i;
+
+  for (i = 1; i <= 27;) {
+	printf("\n %.3d - %s",i,estados[i]);
+	i++;
+  }
+  printf("\n"); printf("\n A CAPITAL DE %s E %s",estados[y],capitais[y]);
+  printf("\n Entre com o codigo do estado: ");
+  scanf("%d",&y);
+  printf("\n");
+  printf("\n");
+  printf("\n");
+}
+
+int main(int argc, char *argv[])
+{
+int z;
+do{letras();}while(z>0);
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+
+COMANDO DE REPETIÇÃO FOR
+
+29. Faça um programa que escreva os números pares de 25 a 318.
+#include <stdio.h>
+#include <tchar.h>
+
+int main(int argc, char *argv[])
+{
+  int i;
+  for (i = 25; i <= 318;) {
+	if(i%2==0)printf("\n%.2d",i);
+	i++;
+  }
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+30. Faça um programa que calcule a soma dos 100 primeiros números naturais.
+#include <stdio.h>
+#include <tchar.h>
+
+int main(int argc, char *argv[])
+{
+  int i=0,x=0;
+
+  for (i = 0; i <= 99; i++) {
+	x = x + i;
+	printf("\n %d = %d",i,x);
+  }
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+
+
+
+
+31. Faça um programa que imprima os múltiplos de 9 menores que 300.
+#include <stdio.h>
+#include <tchar.h>
+
+int main(int argc, char *argv[])
+{
+  int i=0,m9=9,x=0;
+
+  for (i = 1; x < 300; i++) {
+   x = x + m9;
+   if(x < 300){
+	printf("\n %d = %d",i,x);
+   }
+  }
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+
+32. Faça um programa que calcule e imprima os números divisíveis por 3 entre 10 e 450.
+#include <stdio.h>
+#include <tchar.h>
+
+int main(int argc, char *argv[])
+{
+  int i=0,d9=3,x=0;
+
+  for (i = 1; x < 450; i++) {
+   x = x + d9;
+   if(x>=10 && x<=450){
+	printf("\n %d = %d",i,x);
+   }
+  }
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+33. Faça um programa que receba as idades dos 30 alunos de uma turma e, ao final, calcule e escreva a média das idades desses alunos.
+#include <stdio.h>
+#include <tchar.h>
+int main(int argc, char *argv[])
+{
+  int i=0,i1=0;
+  float Soma=0,xMedia=0;
+
+  for (i = 1; i <= 30; i++) {
+	printf("\n Didite a %d Nota: ",i);
+	scanf("%d",&i1);
+	Soma = Soma + i1;
+	xMedia = Soma / i;
+	printf("\n %d - SOMA DAS NOTAS %.2f",i,Soma);
+	printf("\n      MEDIA DAS NOTAS %.2f",xMedia);
+   }
+
+  printf("\n");
+  system("PAUSE");
+}
+34. Faça um programa que leia 10 valores, mostre quantos deles estão no intervalo de [10, 100] e quantos deles não estão.
+#include <stdio.h>
+#include <tchar.h>
+int main(int argc, char *argv[])
+{
+  int i=0,i1=0,qtd_S=0,qtd_N=0;
+
+  for (i = 1; i <= 10; i++) {
+	printf("\n Didite o %d numero: ",i);
+	scanf("%d",&i1);
+	if(i1>=10 && i1<=100){
+	 qtd_S = qtd_S + 1;
+	}else{
+	 qtd_N = qtd_N + 1;
+	}
+   }
+
+  printf("\n A QTD DE VALORES QUE FAZER PARTE DO INTERVALOR DE 0 A 100: %d",qtd_S);
+  printf("\n A QTD DE VALORES QUE NAO FAZER PARTE DO INTERVALOR DE 0 A 100: %d",qtd_N);
+
+  printf("\n");
+  system("PAUSE");
+}
+
+35. Faça um programa que calcule o fatorial de um número qualquer (Lembrando o cálculo do fatorial: n! = n * n-1 * n-2 * ... * 2 * 1. Por exemplo: 5! = 5 * 4 * 3 * 2 * 1 = 120).
+#include <stdio.h>
+#include <tchar.h>
+int main(int argc, char *argv[])
+{
+  int n=0,x=0,f=1;
+
+  printf("\n Didite valor para calcular: ");
+  scanf("%d",&x);
+
+  n = x;
+  while(n>0){
+   f *= n;
+   n--;
+  }
+  printf("\n %d!=%d",x,f);
+
+
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+
+
+36. Faça um programa que imprima a tabuada do número 4, com as quatro operações, no seguinte formato:
+0 + 4 = 4
+1 + 4 = 5
+2 + 4 = 6
+3 + 4 = 7
+4 + 4 = 8
+5 + 4 = 9
+6 + 4 = 10
+7 + 4 = 11
+8 + 4 = 12
+9 + 4 = 13
+10 + 4 = 144 - 4 = 4
+5 - 4 = 5
+6 - 4 = 6
+7 - 4 = 7
+8 - 4 = 8
+9 - 4 = 9
+10 - 4 = 10
+11 - 4 = 11
+12 - 4 = 12
+13 - 4 = 13
+14 - 4 = 140 * 4 = 0
+1 * 4 = 4
+2 * 4 = 8
+3 * 4 = 12
+4 * 4 = 16
+5 * 4 = 20
+6 * 4 = 24
+7 * 4 = 28
+8 * 4 = 32
+9 * 4 = 36
+10 * 4 = 400 / 4 = 0
+4 / 4 = 1
+8 / 4 = 2
+12 / 4 = 3
+16 / 4 = 4
+20 / 4 = 5
+24 / 4 = 6
+26 / 4 = 7
+32 / 4 = 8
+36 / 4 = 9
+40 / 4 = 10
+#include <stdio.h>
+#include <tchar.h>
+int main(int argc, char *argv[])
+{
+  int i,n=0,x=0,f=1;
+  printf("\n  ---------------------------------------------------------");
+  for (i = 0; i <= 10; i++) {
+	printf("\n | %.2d + 04 = %.2d",i,i+4);
+	printf(" | %.2d - 04 = %.2d",i+4,i+4);
+	printf(" | %.2d * 04 = %.2d",i,i*4);
+	printf(" | %.2d/04 = %.2d |",i,i/4);
+  }
+  printf("\n  ---------------------------------------------------------");
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+
+
+
+37. Faça um programa que imprima a tabuada  de um número qualquer. Similar à questão anterior, no entanto, o usuário indicará a tabuada de qual número o programa irá mostrar.
+#include <stdio.h>
+#include <tchar.h>
+int main(int argc, char *argv[])
+{
+  int i,n=0,x=0,f=1;
+  printf("\n Didite valor para a tabuada: ");
+  scanf("%d",&x);
+  printf("\n  ---------------------------------------------------------");
+  for (i = 0; i <= 10; i++) {
+	printf("\n | %.2d + %.2d = %.2d",i,x,i+4);
+	printf(" | %.2d - %.2d = %.2d",i+4,x,i+4);
+	printf(" | %.2d * %.2d = %.2d",i,x,i*4);
+	printf(" | %.2d/%.2d = %.2d |",i,x,i/4);
+  }
+  printf("\n  ---------------------------------------------------------");
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+
+
+38. Faça um programa que receba um número e verifique se ele é primo ou não.
+#include <stdio.h>
+#include <tchar.h>
+
+int main(int argc, char *argv[])
+{
+  int i,x,np;
+  printf("\n Didite um valor: ");
+  scanf("%d",&x);
+  if(x==1 || x==2){
+   printf("\n NUMERO PRIMO");
+   return 0;
+  }
+  for(i=2; i<x; i++){
+	np=x%i;
+	if(np==0)break;
+  }
+  if(np!=0)
+  printf("\n NUMERO PRIMO");
+  else
+  printf("\n NUMERO NAO PRIMO");
+  getch();
+  return 0;
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+
+COMANDO WHILE
+
+39. Faça um programa que escreva os números de 10 a 500.
+#include <stdio.h>
+#include <tchar.h>
+
+int main(int argc, char *argv[])
+{
+  int i=0;
+  while(i < 499){
+
+	if(i < 499)i = i + 1;
+	else
+	i=499;
+
+	if(i >=10 && i <= 499)
+	printf("%.2d-",i);
+
+  }
+  printf("%.2d",500);
+
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+
+
+40. Faça um programa que crie um menu com as opções a seguir, sendo que, quando o usuário selecionar uma opção, o programa apenas irá apresentar o texto “Opção nome_da_opção escolhida”, com exceção da opção 4 que fará o programa terminar sua execução.:
+1 – Cadastrar
+2 – Alterar
+3 – Excluir
+      4 – Sair
+#include <stdio.h>
+#include <tchar.h>
+
+int main(int argc, char *argv[])
+{
+int x = 0,i=0;
+do{
+	  printf("\n|--------------------------------------------------------------|");
+	  printf("\n| CADASTRO DE PRODUTO                                          |");
+	  printf("\n|--------------------------------------------------------------|");
+	  printf("\n| 1 – Cadastrar                                                |");
+	  printf("\n| 2 – Alterar                                                  |");
+	  printf("\n| 3 – Excluir                                                  |");
+	  printf("\n| 4 – Sair                                                     |");
+	  printf("\n|--------------------------------------------------------------|");
+	  printf("\n");
+
+	  switch(x) {
+		  case 1: {printf("\n Opcao Cadastrar escolhida");}
+		  break;
+		  case 2: {printf("\n Opcao Alterar escolhida");}
+		  break;
+		  case 3: {printf("\n Opcao Excluir escolhida");}
+		  break;
+		  default: {printf("\n");}
+		  break;
+	  }
+
+	  printf("\n");
+	  printf("\n Digite a Opcao ");
+	  scanf("%d",&x);
+	  system("cls");
+
+}while(x!=4);
+  printf("\n");
+  printf("\n");
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+
+
+41. Faça um programa que leia dois números inteiros, o primeiro é o valor inicial de um contador, e o segundo é o valor final do contador (o valor inicial fornecido é inferior ao valor final). Usando o comando while, escreva na tela uma contagem que comece no primeiro número lido, escreva os números seguintes colocando apenas um número em cada nova linha da tela, até chegar ao valor final indicado. Exemplo de tela de saída:
+      Entre com o numero inicial da contagem: 5
+   Entre com o numero final da contagem: 9
+   5 6 7 8 9
+#include <stdio.h>
+#include <tchar.h>
+int main(int argc, char *argv[])
+{
+  int i=0,x=0;
+  printf("\n Didite um Inicial: ");
+  scanf("%d",&i);
+  printf("\n Didite um Final: ");
+  scanf("%d",&x);
+  while(i < x){
+	if(i < x)i = i + 1;
+	else
+	i=x;
+	printf("%.2d-",i-1);
+  }
+  printf("%.2d",x);
+
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+   
+   
+42. Fazer um programa que calcule e imprima o fatorial de um número fornecido pelo usuário, usando o comando while. Repetir a execução do programa tantas até o usuário responder não (Lembrando o cálculo do fatorial: n! = n * n-1 * n-2 * ... * 2 * 1. Por exemplo: 5! = 5 * 4 * 3 * 2 * 1 = 120). Exemplo de tela de saída:
+   Entre com um numero: 5
+   O fatorial de 5 é 120
+   Outro número (sim/não)? Não
+#include <stdio.h>
+#include <tchar.h>
+
+void faorial(){
+
+  int n=0,x=0,f=1;
+  printf("\n Didite valor para calcular: ");
+  scanf("%d",&x);
+  n = x;
+  while(n>0){
+   f *= n;
+   n--;
+  }
+  printf("\n %d!=%d",x,f);
+}
+
+int main(int argc, char *argv[])
+{
+unsigned char *s;
+int x = 0;
+faorial();
+do{
+	  printf("\n");
+	  printf("\n");
+	  printf("\n Outro numero ((S)sim/(N)nao)?");
+	  printf("\n");
+	  printf("\n");
+	  printf("\n Digite a Opcao ");
+	  scanf("%s",&s);
+	  if(s=='s')faorial();
+
+}while(s=='s');
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+   
+43. Ler o nome de um aluno e suas duas notas A e B, e após calcular a média ponderada entre estas notas (A tem peso 1 e B tem peso 2). Repetir este procedimento para uma turma composta por três alunos, usando o comando while.
+#include <stdio.h>
+#include <tchar.h>
+#include <string.h>
+
+
+int main(int argc, char *argv[])
+{
+  char s[10];
+  float nA=0,nB=0;
+  int n = 1;
+  while(n<=3){
+	printf("\n Didite o nome do Aluno: ");
+	scanf("%s",&s);
+	printf("\n Didite a nota A: ");
+	scanf("%f",&nA);
+	printf("\n Didite a nota B: ");
+	scanf("%f",&nB);
+	printf("\n MEDIA DO ALUNO: %s E: %.2f ",s,(nA+nB)/2 );
+	printf("\n");
+	printf("\n");
+	n++;
+  }
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+
+44. Alterar o programa anterior de maneira que possamos trabalhar com turmas compostas por um número variável de alunos. Após calcular e imprimir a média de um aluno, exibir uma mensagem perguntando ao usuário se existem mais alunos (resposta: sim / não). Se tiver mais alunos, continuar o procedimento de leitura das notas e o cálculo da média até que o usuário responda 'não'.
+#include <stdio.h>
+#include <tchar.h>
+#include <string.h>
+
+void notas(){
+
+  char s[10];
+  float nA=0,nB=0;
+  int n = 1;
+  system("cls");
+  while(n<=3){
+	printf("\n Didite o nome do Aluno: ");
+	scanf("%s",&s);
+	printf("\n Didite a nota A: ");
+	scanf("%f",&nA);
+	printf("\n Didite a nota B: ");
+	scanf("%f",&nB);
+	printf("\n MEDIA DO ALUNO: %s E: %.2f ",s,(nA+nB)/2 );
+	printf("\n");
+	printf("\n");
+	n++;
+  }
+
+}
+
+int main(int argc, char *argv[])
+{
+unsigned char *s;
+int x = 0;
+notas();
+do{
+	  printf("\n");
+	  printf("\n");
+	  printf("\n Calcular media de outra turma? ((S)sim/(N)nao)?");
+	  printf("\n");
+	  printf("\n");
+	  printf("\n Digite a Opcao ");
+	  scanf("%s",&s);
+	  if(s=='s' || s=='S')notas();
+
+}while(s=='s');
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+
+45. Alterar o programa anterior de maneira a validar as notas fornecidas pelo usuário (notas devem ser valores positivos entre 0.0 e 10.0). Indicar ao usuário se a nota fornecida é inválida e pedir para fornecer uma nova nota, repetindo este processo até que o usuário informe uma nota correta. Usar uma variável de controle booleana (flag) dentro do laço while de leitura da nota, e gerar uma saída conforme o exemplo de tela de saída abaixo.
+   Entre com o nome do aluno: João da Silva
+   Entre com a nota A: 15.3
+   ERRO: Nota invalida! Digite novamente a nota.
+   Entre com a nota A: 5.0
+   Entre com a nota B: 6.0
+   O aluno João da Silva tem uma media: 5.66
+   Continuar (sim/não)? Não
+#include <stdio.h>
+#include <tchar.h>
+#include <string.h>
+
+float nota(char *a[1]){
+float n=0;
+do{
+	printf("\n Didite a nota %s: ",a);
+	scanf("%f",&n);
+	if(n>10)printf("\n ERRO: Nota invalida! Digite novamente a nota. ");
+}while(n>10);
+
+return n;
+}
+
+void notas(){
+
+  char s[10];
+  float nA=0,nB=0;
+  int n = 1;
+  system("cls");
+  while(n<=3){
+	printf("\n Didite o nome do Aluno: ");
+	scanf("%s",&s);
+	nA = nota("A");
+
+
+	nB = nota("B");
+	printf("\n MEDIA DO ALUNO: %s E: %.2f ",s,(nA+nB)/2 );
+	printf("\n");
+	printf("\n");
+	n++;
+  }
+
+}
+
+int main(int argc, char *argv[])
+{
+unsigned char *s;
+int x = 0;
+notas();
+do{
+	  printf("\n");
+	  printf("\n");
+	  printf("\n Continuar? ((S)sim/(N)nao)");
+	  printf("\n");
+	  printf("\n");
+	  printf("\n Digite a Opcao ");
+	  scanf("%s",&s);
+	  if(s=='s' || s=='S')notas();
+
+}while(s=='s');
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+
+
+46. Escrever um programa que calcule todos os números divisíveis por certo valor indicado pelo usuário (o resto da divisão por este número deve ser igual a zero), compreendidos em um intervalo também especificado pelo usuário. O usuário deve entrar com um primeiro valor correspondente ao divisor e após ele vai fornecer o valor inicial do intervalo, seguido do valor final deste intervalo. Exemplo:
+   Entre com o valor do divisor: 3
+   Início do intervalo: 17
+   Final do intervalo: 29
+   Números divisíveis por 3 no intervalo de 17 a 29:
+   18 21 24 27
+#include <stdio.h>
+#include <tchar.h>
+#include <string.h>
+int main(int argc, char *argv[])
+{
+  int i=0,ini=0,fim=0,d=0,x=0;
+  printf("\n Entre com o valor do divisor: ");
+  scanf("%d",&d);
+  printf("\n Início do intervalo: ");
+  scanf("%d",&ini);
+  printf("\n Final do intervalo: ");
+  scanf("%d",&fim);
+  while(i <= fim) {
+   i++;
+   x = x + d;
+   if(x>=ini && x<=fim){
+	printf("%d ",x);
+   }
+  }
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+
+
+47. Seu Manoel tem um comércio e precisa de um programa que lhe apresente o total de produtos vendidos e o valor total de vendas. Faça um programa que leia a quantidade de cada produto e seu valor e apresente esses resultados (Continuar inserindo valores até que o usuário digite a -1).
+#include <stdio.h>
+#include <tchar.h>
+
+int main(int argc, char *argv[])
+{
+int cod=0,qtd=0,qProd=0;
+float valor=0,total=0;
+
+do{
+	  printf("\n CODIGO DO PRODUTO: ");
+	  scanf("%d",&cod);
+	  if(cod>=0){
+		printf("\n QUANTIDADE: ");
+		scanf("%d",&qtd);
+		printf("\n VALOR: ");
+		scanf("%f",&valor);
+		qProd = qProd + 1;
+		total = total + (valor*qtd);
+		system("cls");
+		printf("\n QTD ");printf("CODIGO     ");printf("DESCRICAO DO PRODUTO   ");printf("VALOR");
+		switch(cod) {
+		  case 1:{printf("\n %.3d ",qtd);printf("%.10d ",cod);printf("artem 100mg c/ 10 caps ");printf("R$%.2f ",valor);}break;
+		  case 2:{printf("\n %.3d ",qtd);printf("%.10d ",cod);printf("atroveran composto c/1 ");printf("R$%.2f ",valor);}break;
+		  case 3:{printf("\n %.3d ",qtd);printf("%.10d ",cod);printf("buscopan plus c/1 comp ");printf("R$%.2f ",valor);}break;
+		  case 4:{printf("\n %.3d ",qtd);printf("%.10d ",cod);printf("isordil sublingual 2mg ");printf("R$%.2f ",valor);}break;
+		  default:{printf("\n %.3d ",qtd);printf("%.10d ",cod);printf("anador gotas 500ml 2mg ");printf("R$%.2f ",valor);}break;
+		}
+	 }
+  printf("\n");
+  printf("\n");
+  printf("\n");
+  printf("\n QUANTIDADE DE PRODUTOS: %.2d ",qProd);
+  printf("\n TOTAL DA VENDA: R$ %.2f ",total);
+  printf("\n");
+  printf("\n");
+  printf("\n");
+
+}while(cod>-1);
+  printf("\n");
+  printf("\n");
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+
+
+COMANDO DO-WHILE
+
+48. Escreva um programa que dados 15 números, imprima seus quadrados.
+#include <stdio.h>
+#include <tchar.h>
+
+int main(int argc, char *argv[])
+{
+int x=0,qtd=0;
+do{
+	  qtd++;
+	  printf("\n %d- DIGITE UM NUMERO: ",qtd);
+	  scanf("%d",&x);
+	  printf("\n SEU QUADRADO: %.2d ", x*x );
+	  printf("\n");
+	  printf("\n");
+	  if(qtd==15)x=0;
+}while(x>0);
+
+  printf("\n");
+  printf("\n");
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+
+49. Escreva um programa que dados dois números, imprime o MMC.
+#include <stdio.h>
+#include <stdlib.h>
+
+int mdc2(int a,int b);
+int mmc2(int a,int b);
+
+int main(int argc, char *argv[])
+{
+int a,b;
+	char op;
+    do{
+		printf("Informe dois numeros inteiros: ");
+        scanf("%i%i",&a,&b);
+		printf("m.m.c = %i\n",mmc2(a,b));
+        printf("\nDeseja calcular outro m.m.c (S/N)? ");
+        scanf("%s",&op);
+      }while((op=='s')||(op=='S'));
+
+
+  system("PAUSE");
+}
+
+int mdc2(int a, int b){
+ if(b==0)return a;
+ else
+ return mdc2(b,a%b);
+}
+
+int mmc2(int a, int b){
+ int div;
+ if(b==0)return a;
+ else
+ div = (a*b)/(mdc2(a,b));
+ return (div);
+}
+
+
+50. Escreva um programa que dados dois números, imprime o MDC
+#include <stdio.h>
+#include <stdlib.h>
+
+int mdc2(int a,int b);
+int mmc2(int a,int b);
+
+int main(int argc, char *argv[])
+{
+int a,b;
+	char op;
+    do{
+		printf("Informe dois numeros inteiros: ");
+        scanf("%i%i",&a,&b);
+		printf("m.d.c = %i\n",mdc2(a,b));
+        printf("\nDeseja calcular outro m.m.c (S/N)? ");
+        scanf("%s",&op);
+	  }while((op=='s')||(op=='S'));
+
+
+  system("PAUSE");
+}
+
+int mdc2(int a, int b){
+ if(b==0)return a;
+ else
+ return mdc2(b,a%b);
+}
+
+int mmc2(int a, int b){
+ int div;
+ if(b==0)return a;
+ else
+ div = (a*b)/(mdc2(a,b));
+ return (div);
+}
+51. Escreva um programa que imprime os seguintes dados na tela
+1-1 1-2 1-3 1-4 1-5
+2-1 2-2 2-3 2-4 2-5
+3-1 3-2 3-3 3-4 3-5
+4-1 4-2 4-3 4-4 4-5
+5-1 5-2 5-3 5-4 5-5
+#include <stdio.h>
+#include <stdlib.h>
+int main(int argc, char *argv[]){
+  int i;
+  for (i = 1; i <= 5;i++) {
+	 printf("1-%d ",i);
+  }
+  printf("\n");
+  for (i = 1; i <= 5;i++) {
+	 printf("2-%d ",i);
+  }
+  printf("\n");
+  for (i = 1; i <= 5;i++) {
+	 printf("3-%d ",i);
+  }
+  printf("\n");
+  for (i = 1; i <= 5;i++) {
+	 printf("4-%d ",i);
+  }
+  printf("\n");
+  for (i = 1; i <= 5;i++) {
+	 printf("5-%d ",i);
+  }
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+
+
+
+52. Escreva um programa que imprime os primos até um número digitado.
+#include <stdio.h>
+#include <tchar.h>
+int main(int argc, char *argv[])
+{
+  int i,x,np,valor;
+  printf("\n Didite um valor: ");
+  scanf("%d",&valor);
+  for(x=0; x < valor; x++){
+  for(i=2; i<x; i++){
+	np=x%i;
+	if(np==0)break;
+  }
+  if(np!=0)
+  printf("\n %d NUMERO PRIMO",x);
+  }
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+53. Escreva um programa que imprima os números de 100 a 600 que são múltiplos de 5.
+#include <stdio.h>
+#include <tchar.h>
+int main(int argc, char *argv[])
+{
+  int i=0,m=5,x=100;
+  for (i = 0; x <= 600; i++) {
+   x = x + m;
+   if(x < 600){
+	printf("\n %d",x);
+   }
+  }
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+54. Escreva um programa onde o usuário diz quantos números quer digitar, em seguida solicite a ele que digite todos os números e diga qual o maior número daqueles digitados.
+#include <stdio.h>
+#include <tchar.h>
+#include <malloc.h>
+
+int main(int argc, char *argv[])
+{
+  int *v; int i=0,valor=0,m1=0,m2=0;
+  v = malloc(1);
+
+  printf("\n Didite um valor: ");
+  scanf("%d",&valor);
+
+  while(i < valor){
+	printf("\n valor: ");
+	scanf("%d",&v[i]);
+	i++;
+  }
+  printf("\n");
+  printf("\n");
+  for(i=0;i < valor;i++){
+	printf(" %d",v[i]);
+	m1=v[i];
+	if(m1>m2)m2=m1;
+  }
+  printf("\n");
+  printf("\n O MAIOR VALOR: %d ",m2);
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+
+55. A série de RICCI difere da série de FIBONACCI porque os dois números iniciais são dados pelo usuário e os outros termos são gerados a partir da soma dos dois anteriores. Escreva um programa que imprime os 20 primeiros números a partir de duas entradas do usuário.
+
+NÃO ENTENDI
+
+56. Dado um país A, com 5.000.000 de habitantes e uma taxa de natalidade de 3% ao ano, e um país B com 7.000.000 de habitantes e uma taxa de natalidade de 2% ano, calcular e imprimir o tempo necessário para que a população do país A ultrapasse a do país B.
+
+NÃO ENTENDI
+
+COMANDOS: BRAK, CONTINUE
+
+57. Escreva um programa que imprima na tela os números de 100 a 600 que são múltiplos de 5 e de 3 (os dois ao mesmo tempo).
+#include <stdio.h>
+#include <tchar.h>
+int main(int argc, char *argv[])
+{
+  int i=0,m5=5,m3=3,x=100,x2=100;
+  printf("\n M5  M3");
+  for (i = 0; x <= 600; i++) {
+   x = x + m5;
+   x2 = x2 + m3;
+
+   if(x < 600){
+	printf("\n %d",x); printf(" %d",x2);
+   }
+
+  }
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+
+
+58. Escreva um programa onde o usuário diz quantos números quer digitar, em seguida solicite a ele que digite todos os números e diga qual o menor número daqueles digitados.
+#include <stdio.h>
+#include <tchar.h>
+#include <malloc.h>
+
+int main(int argc, char *argv[])
+{
+  int *v; int i=0,valor=0,m1=0,m2=0;
+  v = malloc(1);
+
+  printf("\n Didite um valor: ");
+  scanf("%d",&valor);
+
+  while(i < valor){
+	printf("\n valor: ");
+	scanf("%d",&v[i]);
+	m2=v[i];
+	i++;
+  }
+  printf("\n");
+  printf("\n");
+  for(i=0;i < valor;i++){
+	printf(" %d",v[i]);
+	m1=v[i];
+	if(m1<m2)m2=m1;
+  }
+  printf("\n");
+  printf("\n O MENOR VALOR: %d ",m2);
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+59. Faça um programa que calcule a multiplicação de dois números através de somas sucessivas.
+#include <stdio.h>
+#include <tchar.h>
+#include <malloc.h>
+
+int mult(int a, int b){
+  int i, sm = 0;
+  for(i=1; i <=b;i++){
+	sm = sm + a;
+	printf(" %d",sm);
+  }
+  return (sm);
+}
+
+int main(int argc, char *argv[])
+{
+  int a,b;
+  printf("\n Didite um valor: ");
+  scanf("%d",&a);
+  printf("\n Didite um valor: ");
+  scanf("%d",&b);
+  printf("\n %d X %d = %d",a,b,mult(a,b));
+  printf("\n");
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+
+
+60. Entrar com 20 números e imprimir a soma dos números cujos quadrados são menores do que 225.
+#include <stdio.h>
+#include <tchar.h>
+
+int main(int argc, char *argv[])
+{
+int x=0,qtd=0,r=0,soma=0;
+do{
+	  qtd++;
+	  printf("\n %d- DIGITE UM NUMERO: ",qtd);
+	  scanf("%d",&x);
+	  r = x*x;
+	  if(r<225)soma = soma + x;
+
+	  printf("\n SEU QUADRADO: %.2d ", r );
+	  printf("\n");
+	  printf("\n");
+	  printf("\n A SOMA DOS VALORES INFORMADOS: %d", soma );
+
+	  if(qtd==20)x=0;
+}while(x>0);
+
+  printf("\n");
+  printf("\n");
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+
+
+61. Ler uma determinada quantidade de números e dizer quantos são pares e quantos são ímpares.
+#include <stdio.h>
+#include <tchar.h>
+
+int main(int argc, char *argv[])
+{
+int n1=0,qtd=0,qtdP=0,qtdI=0;
+
+
+do{
+	  qtd++;
+	  printf("\n Digite um valor: ");
+	  scanf ("%d", &n1);
+
+	  if(n1%2==0){
+		 printf("\n NUMERO PAR");
+		 qtdP++;
+	  }else{
+		 printf("\n NUMERO IMPAR");
+		 qtdI++;
+	  }
+	  printf("\n");
+	  printf("\n Qualquer tecla para continuar...");
+	  getch();
+	  system("cls");
+	  if(qtd==10)n1=0;
+}while(n1>0);
+  printf("\n QTD NUMEROS PARES: %d", qtdP );
+  printf("\n QTD NUMEROS IMPARES: %d", qtdI );
+  getch();
+  printf("\n");
+  printf("\n");
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+}
+
+
+#include <stdio.h>
+#include <tchar.h>
+
+
+
+
+
+1) Faça um programa que leia 10 valores reais em um vetor e, logo após, calcule a média desses valores e a imprima para o usuário.
+
+#include <tchar.h>
+#include <stdio.h>
+#include <locale.h>
+
+int main(int argc, char *argv[])
+{
+  int x[10];
+  int i,y;
+  setlocale(LC_ALL, "Portuguese");
+
+  for(i=1;i <=10;i++){
+	 printf("\n Entre com o Valor n-%d: ",i);
+	 scanf("%d",&x[i]);
+  }
+
+  y = x[1] + x[2] + x[3] + x[4] + x[5] + x[6] + x[7] + x[8] + x[9] + x[10];
+  printf("\n");
+  printf("\n O SOMA DOS VALORES E: %d",y);
+  printf(" E SUA MEDIA: %d",y/10);
+  printf("\n");
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+  return 0;
+}
+
+
+2) Faça um programa que leia um vetor de 10 valores e imprima o menor deles.
+#pragma hdrstop
+#pragma argsused
+
+#include <tchar.h>
+#include <stdio.h>
+#include <locale.h>
+
+int main(int argc, char *argv[])
+{
+  int x[10];
+  int i,y;
+  setlocale(LC_ALL, "Portuguese");
+
+  for(i=1;i <=10;i++){
+	 printf("\n Entre com o Valor n-%d: ",i);
+	 scanf("%d",&x[i]);
+  }
+
+  y = 100000;
+  for(i=1;i <=10;i++){
+	 if( x[i] < y ){
+	   y = x[i];
+
+	 }
+  }
+  printf("\n O Menor valor e: %d ",y);
+
+  printf("\n");
+  printf("\n");
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+  return 0;
+}
+
+
+3) Faça um programa que leia 10 valores em um vetor. Depois de ler o vetor, o programa deve percorrê-lo e imprimir apenas os valores ímpares que foram armazenados.
+#include <tchar.h>
+#include <stdio.h>
+#include <locale.h>
+
+int main(int argc, char *argv[])
+{
+  int x[10];
+  int i,y;
+  setlocale(LC_ALL, "Portuguese");
+
+  for(i=1;i <=10;i++){
+	 printf("\n Entre com o Valor n-%d: ",i);
+	 scanf("%d",&x[i]);
+	 system("cls");
+  }
+
+  printf("\n NUMEROS IMPARES DIGITADOS:");
+  printf("\n");
+  for(i=1;i <=10;i++){
+	 if(x[i]%2!=0){ printf("  %d  ",x[i]); }
+  }
+
+  printf("\n");
+  printf("\n");
+  printf("\n");
+  printf("\n");
+
+  system("PAUSE");
+  return 0;
+}
+
+
+
+4) Faça um programa que preencha 2 vetores, com 5 elementos cada. Como resultado, o programa deve apresentar um vetor com os elementos dos dois vetores intercalados. Vejamos um exemplo a seguir:
+   Vetor 1: [5, 8, 10, 3, 1]
+   Vetor 2: [4, 2, 9, 7, 6]
+   Vetor Resultado: [5, 4, 8, 2, 10, 9, 3, 7, 1, 6]
+#include <tchar.h>
+#include <stdio.h>
+#include <locale.h>
+
+int main(int argc, char *argv[])
+{
+  int x[5] = {5, 8, 10,3, 1};
+  int y[5] = {4, 2, 9, 7, 6};
+  int i=0;
+
+  printf("\n Vetor Resultado: ");
+  printf("[");
+  for(i=0;i < 5;i++){
+	printf("%d,",x[i]);
+	if(i!=4){printf("%d,",y[i]);}
+	else
+	{printf("%d",y[i]);}
+  }
+  printf("]");
+
+
+  printf("\n");
+  printf("\n");
+  printf("\n");
+  printf("\n");
+
+  system("PAUSE");
+  return 0;
+}
+
+   
+5) Faça um programa que receba dez números inteiros e armazene-os em um vetor. O programa deve calcular e mostrar dois vetores resultantes, sendo o primeiro com os números pares e o segundo com os números ímpares do vetor lido.
+
+#include <tchar.h>
+#include <stdio.h>
+#include <locale.h>
+
+int main(int argc, char *argv[])
+{
+  int x[10];
+  int i,y;
+  setlocale(LC_ALL, "Portuguese");
+
+  for(i=1;i <=10;i++){
+	 printf("\n Entre com o Valor n-%d: ",i);
+	 scanf("%d",&x[i]);
+	 system("cls");
+  }
+
+  printf("\n NUMEROS IMPARES DIGITADOS:");
+  printf("[");
+  for(i=1;i <=10;i++){
+	 if(i!=10){
+		if(x[i]%2!=0){ printf("%d,",x[i]); }
+	 }else{
+		if(x[i]%2!=0){ printf("%d",x[i]); }
+     }
+  }
+  printf("]");
+  printf("\n");
+  printf("\n");
+  printf("\n NUMEROS PARES DIGITADOS:");
+  printf("[");
+  for(i=1;i <=10;i++){
+	 if(i!=10){
+		if(x[i]%2==0){ printf("%d,",x[i]); }
+	 }else{
+		if(x[i]%2==0){ printf("%d",x[i]); }
+	 }
+  }
+  printf("]");
+
+  printf("\n");
+  printf("\n");
+  printf("\n");
+  printf("\n");
+
+  system("PAUSE");
+  return 0;
+}
+
+
+6) Faça um programa que receba dois vetores de 5 elementos cada e retorne um vetor resultado contendo a soma das posições correspondentes dos vetores de entrada. Por exemplo:
+   Vetor 1: [5, 8, 10, 3, 1]
+   Vetor 2: [4, 2, 9, 7, 6]
+   Vetor Resultado: [9, 10, 19, 10, 7]
+
+#include <tchar.h>
+#include <stdio.h>
+#include <locale.h>
+
+int main(int argc, char *argv[])
+{
+  int x[5] = {5, 8, 10,3, 1};
+  int y[5] = {4, 2, 9, 7, 6};
+  int i=0;
+
+  printf("\n Vetor Resultado: ");
+  printf("[");
+  for(i=0;i < 5;i++){
+	if(i!=4){printf("%d,",x[i] + y[i]);}
+	else
+	{printf("%d",x[i] + y[i]);}
+  }
+  printf("]");
+
+
+  printf("\n");
+  printf("\n");
+  printf("\n");
+  printf("\n");
+
+  system("PAUSE");
+  return 0;
+}
+
+   
+7) Faça um programa que leia um vetor de 10 elementos. Logo em seguida leia um valor a ser encontrado nesse vetor. Pesquise o valor no vetor e retorne a posição onde o valor está localizado. Se não for encontrado escreva a mensagem: valor não encontrado.
+   Vetor: [10, 8, 4, 2, 7, 12, 19, 21, 37, 18]
+   Valor a ser procurado: 18
+   Resultado: Encontrado na posição: 9
+
+#include <tchar.h>
+#include <stdio.h>
+#include <locale.h>
+
+int main(int argc, char *argv[])
+{
+  int x[10] = {10, 8, 4, 2, 7, 12, 19, 21, 37, 18};
+  int y=0,i=0,b=0;
+
+  printf("\n Entre com o Valor : ");
+  scanf("%d",&y);
+
+  for(i=0;i <= 10;i++){
+	 if(x[i] == y ){
+		printf("\n Resultado: Encontrado na posicao: %d",i);
+		b=1;
+	 }
+  }
+  if(b == 0 ){
+	printf("\n valor nao encontrado.");
+  }
+  printf("\n");
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+  return 0;
+}
+
+   
+8) Leia dois vetores: R de 5 elementos e S de 10 elementos. Gerar um vetor X de 15 elementos cujas 5 primeiras posições contenham os elementos de R e as 10 últimas posições, os elementos de S.  Escrever o vetor X.  
+#include <tchar.h>
+#include <stdio.h>
+#include <locale.h>
+
+int main(int argc, char *argv[])
+{
+  int R[5] = {1, 2, 3, 4, 5};
+  int S[10] = {6, 7, 8, 9, 10, 11, 12, 13, 14, 15};
+  int X[15];
+  int i=0,y=0;
+
+  printf("\n Vetor X Resultado: ");
+  printf("[");
+  for(i=0;i <= 15;i++){
+
+	   if(i<=5){
+		 X[i]=R[i];
+		 printf("%d,",X[i]);
+	   }
+	   if(i>5){
+		 X[i]=S[y];
+		 y = y + 1;
+		   if(i!=15){printf("%d,",X[i]);}
+		   else
+		   {printf("%d",X[i]);}
+
+	   }
+
+  }
+  printf("]");
+  printf("\n");
+  printf("\n");
+  printf("\n");
+
+  system("PAUSE");
+  return 0;
+}
+
+
+
+9) Faça um programa que receba 10 valores em um vetor e os coloque em ordem crescente. Serão necessários dois percorrimentos sobre os elementos desse vetor, para pesquisar cada elemento e depois para verificar se são menores que os já verificados. Veja a seguir:
+	para i de 0 até tamanho[vetor] - 1
+		para j de i até tamanho[vetor]
+			se vetor[i] > vetor[j]
+				aux = vetor[i]
+				vetor[i] = vetor[j]
+				vetor[j] = aux
+#include <tchar.h>
+#include <stdio.h>
+#include <locale.h>
+
+int main(int argc, char *argv[])
+{
+  int x[9];
+  int i,j,aux;
+
+  for(i=0;i <=10;i++){
+	 printf("\n Entre com o Valor n-%d: ",i);
+	 scanf("%d",&x[i]);
+//	 system("cls");
+  }
+
+  for(i=0;i<10; i++){
+	 for(j=i+1;j<10; j++){
+	   if( x[i] > x[j] ){
+		 aux = x[i];
+		 x[i]=x[j];
+		 x[j]=aux;
+	   }
+	 }
+   }
+
+  printf("\n ORDEM CRESCENTE:");
+  for(i=0;i<10;i++){
+	printf(" %d",x[i]);
+  }
+  printf("\n");
+  printf("\n");
+  printf("\n");
+  printf("\n");
+
+  system("PAUSE");
+  return 0;
+}
+
+
+
+
+10) Faça um programa que receba seu nome e sobrenome em variáveis separadas e imprima seu nome completo numa só linha.
+#include <tchar.h>
+#include <stdio.h>
+#include <locale.h>
+
+int main(int argc, char *argv[])
+{
+  char nome[2][50];
+
+  printf("\n Entre com o nome: ");
+  scanf("%s",&nome[0]);
+
+  printf("\n Entre com o sobrenome: ");
+  scanf("%s",&nome[1]);
+
+  printf("\n Entre com o sobrenome: ");
+  scanf("%s",&nome[2]);
+
+  printf("\n");
+  printf("\n");
+  printf("\n Nome: %s %s %s",nome[0],nome[1],nome[2]);
+
+  printf("\n");
+  printf("\n");
+
+  system("PAUSE");
+  return 0;
+}
+
+
+
+11) Faça um programa que receba um nome e o imprima ao contrário
+#include <tchar.h>
+#include <stdio.h>
+#include <locale.h>
+
+int main(int argc, char *argv[])
+{
+   char s[50];
+   char s2[50];
+   int i=0,len=0;
+   printf("\n Entre com o nome: ");
+   scanf("%s",&s);
+   printf("\n");
+   len = strlen(s);
+   for(i=0; i<len; i++){
+	 s2[len-i-1] = s[i];
+   }
+   s2[len] = '\0';
+   printf("%s\n", s);
+   printf("%s\n", s2);
+   printf("\n");
+   printf("\n");
+   system("PAUSE");
+   return 0;
+}
+
+
+
+12) Faça um programa que receba um nome e conte quantos caracteres possui a palavra recebida.
+#include <tchar.h>
+#include <stdio.h>
+#include <locale.h>
+
+int main(int argc, char *argv[])
+{
+   char s[50];
+   int len=0;
+   printf("\n Entre com o nome: ");
+   scanf("%s",&s);
+   printf("\n");
+   len = strlen(s);
+   printf("\n A PALAVRA POSSUI %d CARACTERES.",len);
+   printf("\n");
+   printf("\n");
+   system("PAUSE");
+   return 0;
+}
+
+
+13) Faça um programa que receba duas strings, percorra as duas comparando cada um dos seus elementos e, ao final, imprima se as duas são iguais ou não.
+#include <tchar.h>
+#include <stdio.h>
+#include <locale.h>
+
+int main(int argc, char *argv[])
+{
+   char p1[20];
+   char p2[20];
+   printf("\n Entre com uma palavra: ");
+   scanf("%s",&p1);
+   printf("\n Entre com ourta palavra: ");
+   scanf("%s",&p2);
+
+	if(strcmp(p1, p2) == 0)
+		printf("\n Palavras Iguais");
+	else if(strcmp(p1, p2) != 0)
+		printf("\n Palavras nao sao Iguais");
+
+
+   printf("\n");
+   printf("\n");
+   system("PAUSE");
+   return 0;
+}
+
+
+
+14) Faça um programa que receba duas palavras, concatene as duas e conte quantos caracteres possui o resultado dessa junção. Imprima a palavra concatenada e a quantidade de caracteres da concatenação.
+#include <tchar.h>
+#include <stdio.h>
+#include <locale.h>
+
+int main(int argc, char *argv[])
+{
+   char p1[20];
+   char p2[20];
+   char p3[40];
+
+   printf("\n Entre com uma palavra: ");
+   scanf("%s",&p1);
+   printf("\n Entre com ourta palavra: ");
+   scanf("%s",&p2);
+
+   strcpy(p3,p1);
+   strcat(p3,p2);
+   printf("\n %s",p3);
+
+   printf("\n");
+   printf("\n");
+   system("PAUSE");
+   return 0;
+}
+
+
+15) Faça um programa que receba duas strings e troque os valores dessas variáveis. Imprima os novos valores das duas strings.
+#include <tchar.h>
+#include <stdio.h>
+#include <locale.h>
+
+int main(int argc, char *argv[])
+{
+   char s1[20];
+   char s2[20];
+   char aux[20];
+
+
+   printf("\n Entre com uma palavra: ");
+   scanf("%s",&s1);
+   printf("\n Entre com ourta palavra: ");
+   scanf("%s",&s2);
+
+   strcpy(aux,s1);
+   strcpy(s1,s2);
+   strcpy(s2,aux);
+
+   printf("\n PRIMEIRA PALAVARA: %s",s1);
+   printf("\n SEGUNDA PALAVRA: %s",s2);
+
+
+   printf("\n");
+   printf("\n");
+   system("PAUSE");
+   return 0;
+}
+
+
+16) Faça um programa que receba uma string e conte quantas letras maiúsculas existem numa string recebida como parâmetro.
+#include <tchar.h>
+#include <stdio.h>
+#include <locale.h>
+
+int main(int argc, char *argv[])
+{
+   char s[50];
+   char s2[50];
+   int i=0,len=0;
+   printf("\n Entre com o nome: ");
+   scanf("%s",&s);
+   printf("\n");
+   len = strlen(s);
+
+   for(i=0; i<len; i++){
+	 s2[len-i-1] = s[i];
+
+	if(s[i]>='a' && s[i]<='z')
+		printf("A letra: %c introduzida e minuscula\n",s[i]);
+	else if(s[i]>='A' && s[i]<='Z')
+		printf("A letra: %c introduzida e maiuscula\n",s[i]);
+	else
+		printf("O caracter introduzido nao e uma letra do alfabeto\n");
+
+
+   }
+   s2[len] = '\0';
+
+   printf("\n");
+   printf("\n");
+   system("PAUSE");
+   return 0;
+}
+
+
+
+17) Faça um programa que receba uma string e conte quantas letras minúsculas existem numa string recebida como parâmetro.
+#include <tchar.h>
+#include <stdio.h>
+#include <locale.h>
+
+int main(int argc, char *argv[])
+{
+   char s[50];
+   char s2[50];
+   int i=0,len=0,qtd=0;
+   printf("\n Entre com o nome: ");
+   scanf("%s",&s);
+   printf("\n");
+   len = strlen(s);
+
+   for(i=0; i<len; i++){
+	 s2[len-i-1] = s[i];
+
+	if(s[i]>='a' && s[i]<='z'){
+	 qtd = qtd + 1;
+	}
+   }
+   s2[len] = '\0';
+   printf("Existe: %d letras minuscula\n", qtd);
+
+   printf("\n");
+   printf("\n");
+   system("PAUSE");
+   return 0;
+}
+
+
+18) Faça um programa que receba uma string e troque todas as letras maiúsculas por minúsculas e as minúsculas por maiúsculas de uma string recebida como parâmetro.
+#include <tchar.h>
+#include <stdio.h>
+#include <locale.h>
+
+int main(int argc, char *argv[])
+{
+   char Ma[26] = {'A','B','C','D','E','F','G','H','I','J','L','M','N','O','P','Q','R','S','T','U','V','X','Z','Y','W','K'};
+   char Mi[26] = {'a','b','c','d','e','f','g','h','i','j','l','m','n','o','p','q','r','s','t','u','v','x','z','y','w','k'};   char s[50];
+   char s2[50];
+   int i=0,j=0,len=0,qtd=0;
+
+   printf("\n Entre com o nome: ");
+   scanf("%s",&s);
+   printf("\n");
+   len = strlen(s);
+
+   for(i=0; i<len; i++){
+	s2[i] = s[i];
+	for(j=0; j<26; j++){
+	   if( s[i]==Mi[j] ) {
+		 s2[i] = Ma[j];
+	   }
+	   if( s[i]==Ma[j] ) {
+		 s2[i] = Mi[j];
+	   }
+	}
+   }
+
+   s2[len] = '\0';
+   printf("%s\n", s2);
+
+
+   printf("\n");
+   printf("\n");
+   system("PAUSE");
+   return 0;
+}
+
+
+
+19) Escreva um programa em C para ler uma frase e contar o número de palavras existentes na frase. Considere palavra um conjunto qualquer de caracteres separados por um conjunto qualquer de espaços em branco.
+#include <tchar.h>
+#include <stdio.h>
+#include <locale.h>
+
+int main(int argc, char *argv[])
+{
+  char palavra[100];
+  int count=1,i,j;
+  clrscr();
+  printf("Entre com as palavras: ");
+  fflush(stdin);
+  gets(palavra);
+  j = strlen(palavra)-1;
+
+  while(palavra[j]==' '){
+	palavra[j--]='/0';
+  }
+
+  for(i=0;i<=j;i++){
+	if((palavra[i]==' ') && (palavra[i-1]!=' ')){
+		count++;
+	}
+  }
+
+  printf("Numero de palavras: %d",count);
+  printf("\n");
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+  return 0;
+}
+
+
+
+20) Escreva um programa em C para ler um caractere e logo após um número indeterminado de frases. Para cada frase informada imprimir o número de ocorrências do caractere na frase. O programa deve ser encerrado quando a frase digitada for a palavra "fim".
+#include <tchar.h>
+#include <stdio.h>
+#include <locale.h>
+
+int main(int argc, char *argv[])
+{
+   char s[10];
+   char s2[50];
+   char fim[3] = "fim";
+   int i=0,j=0,len=0,qtd=0;
+
+   printf("\n Entre com um caractere: ");
+   scanf("%s",&s);
+
+while( s2[0] != fim[0] ){
+   printf("\n Entre com a Frase: ");
+   scanf("%s",&s2);
+
+   printf("\n");
+   len = strlen(s2);
+
+   for(i=0; i<len; i++){
+	 if(s2[i] == s[0]){
+	   qtd++;
+	 }
+   }
+
+   s2[len] = '\0';
+   printf(" O numero de ocorrencias do caractere %c e: %d\n", s[0], qtd);
+}
+
+   printf("\n");
+   printf("\n");
+   system("PAUSE");
+   return 0;
+}
+
+
+21) Faça um programa que leia uma string do teclado e diga se ela é palíndromo. Uma string é palíndromo quando pode ser lida tanto de trás pra frente quanto de frente para trás e possui exatamente a mesma seqüência de caracteres. Ex.: ASA, SUBI NO ONIBUS. Desconsidere os espaços.
+#include <tchar.h>
+#include <stdio.h>
+#include <locale.h>
+
+int main(int argc, char *argv[])
+{
+ char texto[200];
+ int tamanho_texto, tamanho_texto1, tamanho_texto2, j, i;
+
+  printf("\n Digite a palavra: ") ;
+  scanf("%s", &texto);
+  tamanho_texto = strlen(texto);
+
+  for (i=0, j = tamanho_texto-1; i < tamanho_texto/2; i++, j--) {
+	 if (texto[i] != texto[j]) {
+	   printf("\n Nao e um palindromo");
+	   printf("\n");
+	   system("PAUSE");
+	   return 0;
+	 }
+  }
+  printf("\n E um palindromo");
+
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+  return 0;
+}
+
+
+22) Faça um programa que receba 3 nome e os coloque em ordem alfabética. Dica: use a função strcmp.
+#include <tchar.h>
+#include <stdio.h>
+#include <locale.h>
+
+int main(int argc, char *argv[])
+{
+   char nome[5][30], aux[30];
+   int i, j;
+
+   for(i=0; i<5; i++){
+	 printf("Entre com o %d%c nome: ", i + 1, 167);
+	 gets(nome[i]);
+   }
+
+   for(j=0; j<5; j++){
+	 for(i=0; i<5-1; i++){
+	   if(strcmp(nome[i], nome[i + 1]) > 0){
+		 strcpy(aux, nome[i]);
+		 strcpy(nome[i], nome[i + 1]);
+		 strcpy(nome[i + 1], aux);
+	   }
+	 }
+   }
+   printf("\n");
+   printf("\n Nomes em ordem alfabetica: ");
+   printf("\n");
+   for(i=0; i<5; i++){
+	 printf("%s\n",nome[i]);
+   }
+
+   printf("\n");
+   printf("\n");
+   system("PAUSE");
+   return 0;
+}
+
+
+23) Faça um programa que receba os elementos de uma matriz e imprima a soma de todos os seus elementos.
+#include <tchar.h>
+#include <stdio.h>
+#include <locale.h>
+
+int main(int argc, char *argv[])
+{
+   int veta[3][3]={{1,2,3},{1,2,3}};
+   int vetb[3][3]={{7,8,9},{7,9,1}};
+   int vetc[2][2]={{0},{0}};
+   int i;
+   int j;
+
+   for(i=0;i < 3;i++){
+	 for(j=0; j < 3; j++){
+	   vetc[i][j] = veta[i][j] + vetb[i][j];
+	   printf("\nA soma dos vetores [%d][%d] e: %d",i+1,j+1,  vetc[i][j]);
+	 }
+   }
+
+   printf("\n");
+   printf("\n");
+   system("PAUSE");
+   return 0;
+}
+
+
+
+
+
+
+
+1. Faça um programa que possua uma estrutura pessoa com os seguintes membros: nome do tipo string, endereço do tipo string, bairro do tipo string, cidade do tipo string, estado do tipo string, CEP do tipo string idade do tipo inteiro altura do tipo float e peso do tipo float. Seu programa deverá possuir as seguintes funções.
+a. Cadastrar pessoa: com leitura do teclado de todos os dados da pessoa
+b. Mostrar pessoa: com escrita na tela de todos os dados correspondente à pessoa cadastrada
+c. Alterar pessoa: escolha um dos campos a serem alterados na pessoa cadastrada e coloque um novo valor nesse campo, mostrando depois todos os campos para que se possa verificar o valor alterado
+#include <tchar.h>
+#include <stdio.h>
+#include <locale.h>
+
+int cadi=0;
+int codigo ;
+char nome[2][50];
+char endereco[2][50];
+char bairro[2][50];
+char cidade[2][50];
+char estado[2][50];
+char cep[2][50];
+int idade[2];
+float altura[2];
+float peso[2];
+
+alteracao() {
+
+   char x;
+   int y;
+
+   system("cls");
+   printf("\n |------------------------- SETOR PESSOAL -------------------------------|");
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n | ALTERAR CADASTRO                                                      |");
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n");
+   printf("\n");
+   printf("\n QUANTIDADE DE CADASTRO: %d", cadi);
+   printf("\n");
+
+   printf("\n Digite o codigo da Pessoa: ");
+   scanf("%d",&y);
+   printf("\n");
+   fflush(stdout);
+   gets(nome[y]);
+   fflush(stdout);
+
+   printf("\n Nome: ");
+   gets(nome[y]);
+   fflush(stdout);
+
+   printf("\n Endereco: ");
+   gets(endereco[y] );
+   fflush(stdout);
+
+   printf("\n Bairro: ");
+   gets(bairro[y] );
+   fflush(stdout);
+
+   printf("\n Cidade: ");
+   gets(cidade[y] );
+   fflush(stdout);
+
+   printf("\n Estado: ");
+   gets(estado[y] );
+   fflush(stdout);
+
+   printf("\n Cep: ");
+   gets(cep[y] );
+   fflush(stdout);
+
+   printf("\n Idade: ");
+   scanf("%d", &idade[y] );
+   fflush(stdout);
+
+   printf("\n Altura: ");
+   scanf("%f", &altura[y] );
+   fflush(stdout);
+
+   printf("\n Peso: ");
+   scanf("%f", &peso[y] );
+   fflush(stdout);
+
+   system("cls");
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n | ALTERAR OUTRO CADASTRO?                                                  |");
+   printf("\n | S - SIM CADASTRAR NOVAMENTE                                           |");
+   printf("\n | N - NAO VOTAR PARA O MENU PRINCIPAL                                   |");
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n");
+   printf("\n Digite a Opcao ");
+   scanf("%c",&x);
+
+   while(x != 'S' || x != 'N' || x != 's' || x != 'n'){
+	 switch (x) {
+	   case 'S': alteracao();
+	   break;
+	   case 'N': main();
+	   break;
+	   case 's': alteracao();
+	   break;
+	   case 'n': main();
+	   break;
+
+	 }
+   }
+
+
+
+}
+
+cadastro() {
+
+   char x;
+
+   system("cls");
+
+   printf("\n |------------------------- SETOR PESSOAL -------------------------------|");
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n | CADASTRO                                                              |");
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n");
+   printf("\n QUANTIDADE DE CADASTRO: %d", cadi);
+   printf("\n");
+
+   cadi++;
+
+   printf("\n Nome: ");
+   gets(nome[cadi]);
+   fflush(stdout);
+
+   printf("\n Endereco: ");
+   gets(endereco[cadi] );
+   fflush(stdout);
+
+   printf("\n Bairro: ");
+   gets(bairro[cadi] );
+   fflush(stdout);
+
+   printf("\n Cidade: ");
+   gets(cidade[cadi] );
+   fflush(stdout);
+
+   printf("\n Estado: ");
+   gets(estado[cadi] );
+   fflush(stdout);
+
+   printf("\n Cep: ");
+   gets(cep[cadi] );
+   fflush(stdout);
+
+   printf("\n Idade: ");
+   scanf("%d", &idade[cadi] );
+   fflush(stdout);
+
+   printf("\n Altura: ");
+   scanf("%f", &altura[cadi] );
+   fflush(stdout);
+
+   printf("\n Peso: ");
+   scanf("%f", &peso[cadi] );
+   fflush(stdout);
+
+   system("cls");
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n | CADASTRAR NOVAMENTE?                                                  |");
+   printf("\n | S - SIM CADASTRAR NOVAMENTE                                           |");
+   printf("\n | N - NAO VOTAR PARA O MENU PRINCIPAL                                   |");
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n");
+   printf("\n Digite a Opcao ");
+   scanf("%c",&x);
+
+   while(x != 'S' || x != 'N' || x != 's' || x != 'n'){
+	 switch (x) {
+	   case 'S': cadastro();
+	   break;
+	   case 'N': main();
+	   break;
+	   case 's': cadastro();
+	   break;
+	   case 'n': main();
+	   break;
+
+	 }
+   }
+
+}
+
+reltodos() {
+  char x;
+  int y;
+  system("cls");
+  printf("\n");
+
+  for (y = 1; y <= cadi; y++){
+   printf("\n Nome: %s ",nome[y]);
+   printf("\n Endereco: %s ",endereco[y]);
+   printf("\n Bairro: %s",bairro[y]);
+   printf("\n Cidade: %s",cidade[y]);
+   printf("\n Estado: %s",estado[y]);
+   printf("\n Cep: %s",cep[y]);
+   printf("\n Idade: %02d", idade[y]);
+   printf("\n Altura: %.2f", altura[y]);
+   printf("\n Peso: %.2f", peso[y]);
+   printf("\n --------------------------------------");
+  }
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+  consulta();
+}
+
+relfiltro() {
+
+  char x;
+  int y;
+  system("cls");
+  printf("\n");
+
+   printf("\n Digite o codigo da Pessoa: ");
+   scanf("%d",&y);
+   printf("\n");
+   fflush(stdout);
+
+   printf("\n Nome: %s ",nome[y]);
+   printf("\n Endereço: %s ",endereco[y]);
+   printf("\n Bairro: %s",bairro[y]);
+   printf("\n Cidade: %s",cidade[y]);
+   printf("\n Estado: %s",estado[y]);
+   printf("\n Cep: %s",cep[y]);
+   printf("\n Idade: %2d", idade[y]);
+   printf("\n Altura: %.2f", altura[y]);
+   printf("\n Peso: %.2f", peso[y]);
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+  consulta();
+}
+
+consulta() {
+   int y;
+   int x = 0;
+   system("cls");
+
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n | CONSULTA DE CADASTRO PESSOAL                                          |");
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n | 1-TODOS                                                               |");
+   printf("\n | 2-FILTRAR CADASTRO                                                    |");
+   printf("\n | 0-SAIR                                                                |");
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n");
+   printf("\n QUANTIDADE DE CADASTRO: %d", cadi);
+   printf("\n");
+   printf("\n Digite a Opcao ");
+   scanf("%d",&x);
+
+   while(x > -1){
+	 switch (x) {
+	   case 1: reltodos();
+	   break;
+	   case 2: relfiltro();
+	   break;
+	   case 0: main();
+	   break;
+	   default: main();
+	 }
+   }
+}
+
+
+menuprincipal() {
+
+   int x = 0;
+   system("cls");
+
+   printf("\n %d", cadi);
+
+   printf("\n |------------------------- SETOR PESSOAL -------------------------------|");
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n | MENU PRINCIPAL                                                        |");
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n | 1-CADASTRO                                                            |");
+   printf("\n | 2-ALTERAR                                                             |");
+   printf("\n | 3-CONSULTA                                                            |");
+   printf("\n | 0-SAIR                                                                |");
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n");
+   printf("\n QUANTIDADE DE CADASTRO: %d", cadi);
+   printf("\n");
+   printf("\n Digite a Opcao ");
+   scanf("%d",&x);
+
+   while(x > -1){
+	 switch (x) {
+	   case 1: cadastro();
+	   break;
+	   case 2: alteracao();
+	   break;
+	   case 3: consulta();
+	   break;
+	   case 0: exit();
+
+	   break;
+	 }
+   }
+}
+
+int main(int argc, char *argv[])
+{
+   menuprincipal();
+   //reltodos();
+   printf("\n");
+   printf("\n");
+   system("PAUSE");
+   return 0;
+}
+2. Faça um programa que contenha uma estrutura aluno com os seguintes membros: nome do tipo string, matrícula do tipo string, nota1 do tipo float, nota2 do tipo float e nota3 do tipo float. Seu programa devera receber todos os dados de um aluno e ao final exibir o relatório do mesmo da seguinte forma:
+Aluno nome de matrícula matrícula, possui notas: nota1, nota2 e nota3. Sendo assim, está (aprovado|reprovado|de prova final), com média media
+
+#include <tchar.h>
+#include <stdio.h>
+#include <locale.h>
+
+
+int cadi=0;
+char nome[2][50];
+char matricula[50][2];
+float nota1[10];
+float nota2[10];
+float nota3[10];
+
+cadastro() {
+
+   char x;
+   system("cls");
+   printf("\n |------------------------- SISTEMA ESCOLAR -----------------------------|");
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n | CADASTRO                                                              |");
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n");
+   printf("\n QUANTIDADE DE CADASTRO: %d", cadi);
+   printf("\n");
+
+   cadi++;
+
+   printf("\n Nome: ");
+   gets(nome[cadi]);
+
+   printf("\n Matricula: ");
+   gets(matricula[cadi]);
+
+   printf("\n Nota 1: ");
+   scanf("%f",&nota1[cadi] );
+
+   printf("\n Nota 2: ");
+   scanf("%f",&nota2[cadi] );
+
+   printf("\n Nota 3: ");
+   scanf("%f",&nota3[cadi] );
+
+
+   system("cls");
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n | CADASTRAR NOVAMENTE?                                                  |");
+   printf("\n | S - SIM CADASTRAR NOVAMENTE                                           |");
+   printf("\n | N - NAO VOTAR PARA O MENU PRINCIPAL                                   |");
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n");
+   printf("\n Digite a Opcao ");
+   scanf("%c",&x);
+
+   while(x != 'S' || x != 'N' || x != 's' || x != 'n'){
+	 switch (x) {
+	   case 'S': cadastro();
+	   break;
+	   case 'N': main();
+	   break;
+	   case 's': cadastro();
+	   break;
+	   case 'n': main();
+	   break;
+
+	 }
+   }
+
+
+}
+
+reltodos() {
+  char x;
+  int y;
+  float md,md1;
+
+  system("cls");
+  printf("\n");
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n | RELACAO DE ALUNOS                                                     |");
+   printf("\n |-----------------------------------------------------------------------|");
+
+  for (y = 1; y <= cadi; y++){
+   printf("\n Nome: %s ",nome[y]);
+   printf("\n Matricula: %s ",matricula[y]);
+   printf("\n Nota 1: %.2f ", nota1[y]);
+   printf("\n Nota 2: %.2f ", nota2[y]);
+   printf("\n Nota 3: %.2f ", nota3[y]);
+   md = (nota1[y] + nota2[y] + nota3[y])/3;
+   printf("\n");
+   printf("\n Media: %.2f ", md);
+   printf("\n");
+   if(md > 6){ printf("\n APROVADO");}
+   if(md > 3 && md < 7){ printf("\n PROVA FINAL");}
+   if(md < 4){ printf("\n REPROVADO");}
+   printf("\n");
+
+   printf("\n --------------------------------------");
+  }
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+  menuprincipal();
+}
+
+
+
+
+menuprincipal() {
+
+   int x = 0;
+   system("cls");
+
+   printf("\n |------------------------- NOTAS ALUNOS --------------------------------|");
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n | MENU PRINCIPAL                                                        |");
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n | 1-CADASTRO                                                            |");
+   printf("\n | 2-CONSULTA                                                            |");
+   printf("\n | 0-SAIR                                                                |");
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n");
+   printf("\n QUANTIDADE DE CADASTRO: %d", cadi);
+   printf("\n");
+   printf("\n Digite a Opcao ");
+   scanf("%d",&x);
+
+   while(x > -1){
+	 switch (x) {
+	   case 1: cadastro();
+	   break;
+	   case 2: reltodos();
+	   break;
+	   case 0: exit();
+	   break;
+	 }
+   }
+}
+
+int main(int argc, char *argv[])
+{
+   menuprincipal();
+   printf("\n");
+   printf("\n");
+   system("PAUSE");
+   return 0;
+}
+
+
+3. Crie um programa que contenha uma estrutura retângulo com os seguintes membros: base de tipo float e altura de tipo float. Seu programa deverá pedir para o usuário entrar com os dados de base e altura e imprimir a área desse retângulo.
+#include <tchar.h>
+#include <stdio.h>
+#include <locale.h>
+
+
+int main(int argc, char *argv[])
+{
+
+   float base;
+   float altura;
+   float area;
+
+
+   system("cls");
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n | CALCULAR AREA DE UM RETAGULO                                          |");
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n");
+   printf("\n");
+
+   printf("\n Digite a base do retângulo: ");
+   scanf("%f",& base );
+
+   printf("\n Digite a altura do retângulo: ");
+   scanf("%f",& altura );
+
+   area =  base * altura;
+
+   printf("\n A area de um retangulo com base = %.2f", base);
+   printf(" e altura %.2f", altura);
+   printf(" e: %.2f", area);
+
+   printf("\n");
+   printf("\n");
+   system("PAUSE");
+   return 0;
+}
+
+4. Faça um programa que contenha as definições de registros para os seguintes dados. OBS: cada item corresponderá a uma estrutura
+a. Um veículo novo de uma concessionária de automóveis
+b. Um eletrodoméstico de uma loja
+c. Um prato em um restaurante
+
+
+5. Defina um tipo de registro para armazenar dados de um voo, como por exemplo os nomes das cidades de origem e de destino, datas e horários de partida e datas e horários de chegada. Seu programa deverá conter:
+a. Uma opção para cadastrar o voo, lendo todos os dados que o usuário digitar
+b. Uma opção para alterar o voo cadastrado, alterando apenas o dado escolhido pelo usuário para alteração
+c. Uma opção para mostrar todos os dados do voo cadastrado
+
+
+#include <tchar.h>
+#include <stdio.h>
+#include <locale.h>
+
+int cadi=0;
+char cidadeOrig[2][50];
+char cidadeDest[2][50];
+char dataPart[2][10];
+char dataCheg[2][10];
+char horaPart[2][10];
+char horaCheg[2][10];
+
+cadastro() {
+
+   char x;
+
+   system("cls");
+
+   printf("\n |--------------------- SISTEMA DE VOO AEREO ----------------------------|");
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n | CADASTRO                                                              |");
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n");
+   printf("\n QUANTIDADE DE CADASTRO: %d", cadi);
+   printf("\n");
+
+   cadi++;
+
+   printf("\n Cidade de Origem: ");
+   gets(cidadeOrig[cadi]);
+   fflush(stdout);
+
+   printf("\n Cidade de Destino: ");
+   gets(cidadeDest[cadi] );
+   fflush(stdout);
+
+   printf("\n Data da partida: ");
+   gets(dataPart[cadi] );
+   fflush(stdout);
+
+   printf("\n Data da Chegada: ");
+   gets(dataCheg[cadi] );
+   fflush(stdout);
+
+   printf("\n Hora da Partida: ");
+   gets(horaPart[cadi] );
+   fflush(stdout);
+
+   printf("\n Hora da Chegada: ");
+   gets(horaCheg[cadi] );
+   fflush(stdout);
+
+
+   system("cls");
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n | CADASTRAR NOVAMENTE? (S)Sim - (N)Nao                                  |");
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n");
+   printf("\n Digite a Opcao ");
+   scanf("%c",&x);
+
+   while(x != 'S' || x != 'N' || x != 's' || x != 'n'){
+	 switch (x) {
+	   case 'S': cadastro();
+	   break;
+	   case 'N': main();
+	   break;
+	   case 's': cadastro();
+	   break;
+	   case 'n': main();
+	   break;
+
+	 }
+   }
+
+}
+
+
+alteracao() {
+
+   char x;
+   int y;
+
+   system("cls");
+   printf("\n |--------------------- SISTEMA DE VOO AEREO ----------------------------|");
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n | ALTERAR CADASTRO                                                      |");
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n");
+   printf("\n");
+   printf("\n QUANTIDADE DE CADASTRO: %d", cadi);
+   printf("\n");
+
+   printf("\n Digite o codigo da Pessoa: ");
+   scanf("%d",&y);
+   printf("\n");
+   fflush(stdout);
+
+   printf("\n Cidade de Origem: ");
+   gets(cidadeOrig[y]);
+   fflush(stdout);
+
+   printf("\n Cidade de Destino: ");
+   gets(cidadeDest[y] );
+   fflush(stdout);
+
+   printf("\n Data da partida: ");
+   gets(dataPart[y] );
+   fflush(stdout);
+
+   printf("\n Data da Chegada: ");
+   gets(dataCheg[y] );
+   fflush(stdout);
+
+   printf("\n Hora da Partida: ");
+   gets(horaPart[y] );
+   fflush(stdout);
+
+   printf("\n Hora da Chegada: ");
+   gets(horaCheg[y] );
+   fflush(stdout);
+
+   system("cls");
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n | CADASTRAR NOVAMENTE? (S)Sim - (N)Nao                                  |");
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n");
+   printf("\n Digite a Opcao ");
+   scanf("%c",&x);
+
+   while(x != 'S' || x != 'N' || x != 's' || x != 'n'){
+	 switch (x) {
+	   case 'S': alteracao();
+	   break;
+	   case 'N': main();
+	   break;
+	   case 's': alteracao();
+	   break;
+	   case 'n': main();
+	   break;
+
+	 }
+   }
+
+}
+
+reltodos() {
+  char x;
+  int y;
+  system("cls");
+  printf("\n");
+  printf("\n |-----------------------------------------------------------------------|");
+  printf("\n | RELACAO DIS DADOS                                                     |");
+  printf("\n |-----------------------------------------------------------------------|");
+  printf("\n");
+  for (y = 1; y <= cadi; y++){
+	printf("\n Cidade de Origem: %s ",cidadeOrig[y]);
+	printf("\n Cidade de Destino: %s ",cidadeDest[y]);
+	printf("\n Data da partida: %s",dataPart[y]);
+	printf("\n Data da Chegada: %s",dataCheg[y]);
+	printf("\n Hora da Partida: %s",horaPart[y]);
+	printf("\n Hora da Chegada: %s",horaCheg[y]);
+	printf("\n --------------------------------------");
+  }
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+  consulta();
+}
+
+relfiltro() {
+
+  char x;
+  int y;
+  system("cls");
+  printf("\n");
+
+   printf("\n Digite o codigo da Pessoa: ");
+   scanf("%d",&y);
+   printf("\n");
+   fflush(stdout);
+
+   printf("\n Cidade de Origem: %s ",cidadeOrig[y]);
+   printf("\n Cidade de Destino: %s ",cidadeDest[y]);
+   printf("\n Data da partida: %s",dataPart[y]);
+   printf("\n Data da Chegada: %s",dataCheg[y]);
+   printf("\n Hora da Partida: %s",horaPart[y]);
+   printf("\n Hora da Chegada: %s",horaCheg[y]);
+
+
+  printf("\n");
+  printf("\n");
+  system("PAUSE");
+  consulta();
+}
+
+consulta() {
+   int y;
+   int x = 0;
+   system("cls");
+
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n | CONSULTA                                                              |");
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n | 1-TODOS                                                               |");
+   printf("\n | 2-FILTRAR CADASTRO                                                    |");
+   printf("\n | 0-SAIR                                                                |");
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n");
+   printf("\n QUANTIDADE DE CADASTRO: %d", cadi);
+   printf("\n");
+   printf("\n Digite a Opcao ");
+   scanf("%d",&x);
+
+   while(x > -1){
+	 switch (x) {
+	   case 1: reltodos();
+	   break;
+	   case 2: relfiltro();
+	   break;
+	   case 0: main();
+	   break;
+	   default: main();
+	 }
+   }
+}
+
+
+menuprincipal() {
+
+   int x = 0;
+   system("cls");
+
+   printf("\n %d", cadi);
+
+   printf("\n |--------------------- SISTEMA DE VOO AEREO ----------------------------|");
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n | MENU PRINCIPAL                                                        |");
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n | 1-CADASTRO                                                            |");
+   printf("\n | 2-ALTERAR                                                             |");
+   printf("\n | 3-CONSULTA                                                            |");
+   printf("\n | 0-SAIR                                                                |");
+   printf("\n |-----------------------------------------------------------------------|");
+   printf("\n");
+   printf("\n QUANTIDADE DE CADASTRO: %d", cadi);
+   printf("\n");
+   printf("\n Digite a Opcao ");
+   scanf("%d",&x);
+
+   while(x > -1){
+	 switch (x) {
+	   case 1: cadastro();
+	   break;
+	   case 2: alteracao();
+	   break;
+	   case 3: consulta();
+	   break;
+	   case 0: exit();
+
+	   break;
+	 }
+   }
+}
+
+int main(int argc, char *argv[])
+{
+   menuprincipal();
+   printf("\n");
+   printf("\n");
+   system("PAUSE");
+   return 0;
+}
+
+
+
+
