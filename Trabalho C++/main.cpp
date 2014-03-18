@@ -1,22 +1,22 @@
 /*********************************************************************
 * Nome Aluno: Giovani Henrique Laguna RA: 44334986889
-* Nome Aluno: Felipe Souza RA:358.248.548-07
+* Nome Aluno: Felipe Souza de Mattos RA:358.248.548-07
 * Data: 18/03/2014
 * Resumo do problema: o objetivo do programa ser um
-* gerenciador simples da situação academica de alunos para
+* gerenciador simples da situaÃ§Ã£o academica de alunos para
 * o professor
 *********************************************************************/
 
 #include <iostream>
 #include <cstdlib>
 #include <string.h>
-#include<stdio.h>
+#include <stdio.h>
 
 using namespace std;
 
 struct Materia {
    	float carga_horaria;
-   	char desc[500]; // descrição da disciplina
+   	char desc[500]; // descriÃ§Ã£o da disciplina
    	char nome[100]; // nome da displina
   }materia;
 
@@ -57,19 +57,19 @@ int main(int argc, char** argv) {
 
 		cout << "\n\n========================================================\n";
 		cout << "\nO que voce gostaria de fazer?\n";
-		cout << "\t(0) editar dados da disciplina\n";
-		cout << "\t(1) editar carga horaria da discplina\n";
-		cout << "\t(2) mostar todos alunos (nome)(ra)\n";
-		cout << "\t(3) adicionar aluno\n";
-		cout << "\t(4) inserir/editar media do pimeiro bimenstre de um aluno\n";
-		cout << "\t(5) inserir/editar media do segundo bimenstre de um aluno\n";
-		cout << "\t(6) mostar medias\n";
-		cout << "\t(7) mostar a maior media da turma\n";
-		cout << "\t(8) editar quantidade de faltas de um aluno\n";
-		cout << "\t(9) mostrar quantidade de alunos aprovados\n";
-		cout << "\t(10) finalizar o programa\n";
+		cout << "\t(0) Editar dados da disciplina\n";
+		cout << "\t(1) Editar carga horaria da discplina\n";
+		cout << "\t(2) Mostar todos alunos (nome)(ra)\n";
+		cout << "\t(3) Adicionar aluno\n";
+		cout << "\t(4) Inserir/editar media do pimeiro bimenstre de um aluno\n";
+		cout << "\t(5) Inserir/editar media do segundo bimenstre de um aluno\n";
+		cout << "\t(6) Mostar medias\n";
+		cout << "\t(7) Mostar a maior media da turma\n";
+		cout << "\t(8) Editar quantidade de faltas de um aluno\n";
+		cout << "\t(9) Mostrar quantidade de alunos aprovados\n";
+		cout << "\t(10) Finalizar o programa\n";
 
-		cout << "\nDigite o numero da opcao:\n";
+		cout << "\nDigite o Numero da Opcao: ";
 		cin >> opcao;
 		gets(pausa);
 
@@ -106,63 +106,63 @@ int main(int argc, char** argv) {
 }
 //================================================================================
 void edt_disciplina(){
-	cout << "Digite o nome da disciplina:";
+	cout << "Digite o nome da disciplina: ";
 	gets(materia.nome);
-	cout << "\nDigite a descricao da disciplina:";
-	gets(materia.nome);
+	cout << "\nDigite a descricao da disciplina: ";
+	gets(materia.desc);
 	gets(pausa);
 }
 void edt_carga_horaria(){
-	cout << "Digite a carga horaria:";
+	cout << "Digite a carga horaria: ";
 	cin >> materia.carga_horaria;
 	gets(pausa);
 }
 void add_aluno(){
-	cout << "Insira o nome:";
+	cout << "Insira o Nome: ";
 	gets(alunos[contador].nome);
-	cout << "\nInsira o ra:";
+	cout << "\nInsira o RA: ";
 	gets(alunos[contador].ra);
 	contador++;
 	gets(pausa);
 }
 void edt_m1b_aluno(){
 	char ra[12];
-	cout << "Insira o ra do aluno:";
+	cout << "Insira o RA do Aluno: ";
 	gets(ra);
 	for(int i=0; i<contador; i++){
 		if(!(strcmp(alunos[i].ra,ra))){
-			cout << "insira a nota [mb1]]: ";
+			cout << "Insira a nota Bimestral 1: ";
 			cin >> alunos[i].prova.mb1;
 		}else if(i==(contador-1)){
-			cout << "aluno nao encontrado";}
+			cout << "Aluno nao encontrado";}
 	}
 	zero_alunos();
 	gets(pausa);
 }
 void edt_m2b_aluno(){
 	char ra[12];
-	cout << "Insira o ra do aluno:";
+	cout << "Insira o RA do aluno:";
 	gets(ra);
 	for(int i=0; i<contador; i++){
 		if(!(strcmp(alunos[i].ra,ra))){
-			cout << "insira a nota [mb2]]: ";
+			cout << "Insira a Nota da Bimestral 2: ";
 			cin >> alunos[i].prova.mb2;
 		}else if(i==(contador-1)){
-			cout << "aluno nao encontrado";}
+			cout << "Aluno nao encontrado";}
 	}
 	zero_alunos();
 	gets(pausa);
 }
 void cdt_qtd_faltas(){
 	char ra[12];
-	cout << "Insira o ra do aluno:";
+	cout << "Insira o RA do aluno:";
 	gets(ra);
 	for(int i=0; i<contador; i++){
 		if(strcmp(alunos[i].ra,ra) == 0){
-			cout << "insira a quantidade de faltas: ";
+			cout << "Insira a quantidade de faltas: ";
 			cin >> alunos[i].qtd_faltas;
 		}else if(i==(contador-1)){
-			cout << "aluno nao encontrado";}
+			cout << "Aluno nÃ£o encontrado";}
 		}
 	zero_alunos();
 	gets(pausa);
@@ -171,7 +171,7 @@ void cdt_qtd_faltas(){
 //--------------------------------------------------------
 void mst_todos_alunos(){
 	for(int i=0; i<contador; i++){
-		cout << "nome: " << alunos[i].nome << "\tra:" << alunos[i].ra << endl;
+		cout << "Nome: " << alunos[i].nome << "\tRA:" << alunos[i].ra << endl;
 	}
 	zero_alunos();
 	}
@@ -180,7 +180,7 @@ void mst_medias(){
 		alunos[i].prova.media = alunos[i].prova.mb1*0.4+alunos[i].prova.mb2*0.6;
 	}
 	for(int i=0; i<contador; i++){
-		cout << "Nome: " << alunos[i].nome << "\tmb1: " << alunos[i].prova.mb1 << "\tmb2: " << alunos[i].prova.mb2 << "\tmedia final: "<< alunos[i].prova.media <<endl;
+		cout << "Nome: " << alunos[i].nome << "\tMedia Bimestral 1: " << alunos[i].prova.mb1 << "\tMedia Bimestral 2: " << alunos[i].prova.mb2 << "\tMedia Final: "<< alunos[i].prova.media <<endl;
 		}
 	zero_alunos();
 	gets(pausa);
@@ -191,22 +191,20 @@ void mst_maior_media(){
 	for(int i=0;i<contador;i++){
 		alunos[i].prova.media = alunos[i].prova.mb1*0.4+alunos[i].prova.mb2*0.6;
 	}
-	cout <<"oi";
 	for(int i=0;i<contador;i++){
 		if(alunos[i].prova.media > maior){
 			strcpy(nome,alunos[i].nome);
-			cout<<"oii";
 			maior = alunos[i].prova.media;
 			cout << maior;
 		}
 	}
 	if(!(maior == -1)){
-		cout << nome << " possui a maior nota [" << maior << "]";
+		cout << nome << " Possui a maior nota [" << maior << "]";
 	}
 	zero_alunos();
 	}
 void mst_qtd_alunos_aprovados(){
-	int x=0; // x é a quantidade de alunos aprovados
+	int x=0; // x Ã© a quantidade de alunos aprovados
 	for(int i=0;i<contador;i++){
 		alunos[i].prova.media = alunos[i].prova.mb1*0.4+alunos[i].prova.mb2*0.6;}
 	for(int i=0;i<contador;i++){
@@ -215,12 +213,12 @@ void mst_qtd_alunos_aprovados(){
 		}
 	}
 	if(x){
-		cout << "Quantidade de alunos aprovados: " << x;
+		cout << "Quantidade de Alunos Aprovados e de: " << x;
 	}else{
-		cout << "nenhum aluno aprovado ou nenhum aluno cadastrado";
+		cout << "Nao ha nenhum aluno Aprovado ou Cadastrado";
 	}
 
 }
 void zero_alunos(){
-	if(contador == 0) cout << "nao ha alunos cadastrados";
+	if(contador == 0) cout << "Nao ha Alunos Cadastrados";
 }
